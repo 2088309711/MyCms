@@ -25,15 +25,15 @@ $empire = null;
     <title>后台地图</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/statics/css/pintuer.css">
+    <link rel="stylesheet" href="/statics/pintuer/css/pintuer.css">
     <style>
         strong {
             color: #007bff;
         }
     </style>
-    <script src="/statics/js/jquery.js"></script>
-    <script src="/statics/js/pintuer.js"></script>
-    <script src="/statics/js/respond.js"></script>
+    <script src="/statics/pintuer/js/jquery.js"></script>
+    <script src="/statics/pintuer/js/pintuer.js"></script>
+    <script src="/statics/pintuer/js/respond.js"></script>
     <script>
         function GoToUrl(url, totarget) {
             if (totarget == '') {

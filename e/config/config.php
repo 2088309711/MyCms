@@ -92,7 +92,7 @@ $ecms_config['memberf']['isern']='isern';//实名字段
 //后台安全设置
 $ecms_config['esafe']['loginauth']='';	//登录认证码,如果设置登录需要输入此认证码才能通过
 $ecms_config['esafe']['enloginauth']=0;	//登录认证码加密验证串有效时间,单位:秒(0为不启用加密)
-$ecms_config['esafe']['ecookiernd']='XvynmvS0x8cQh9PvnbOVWU0gTxUBqtiUTXug';	//后台登录COOKIE认证码(填写10~50个任意字符，最好多种字符组合)
+$ecms_config['esafe']['ecookiernd']='wCCyMVfXv4FC6Rr5MW7n9vraHkUiIXpqSiAR';	//后台登录COOKIE认证码(填写10~50个任意字符，最好多种字符组合)
 $ecms_config['esafe']['ckhloginip']=0;	//后台是否验证登录IP,0为不验证,1为验证
 $ecms_config['esafe']['ckhsession']=0;	//后台是否启用SESSION验证,0为不验证,1为验证
 $ecms_config['esafe']['ckhanytime']=0;	//后台随时认证码变更周期,单位:秒(0为不启用)
@@ -109,13 +109,13 @@ $ecms_config['cks']['ckdomain']='';		//cookie作用域
 $ecms_config['cks']['ckpath']='/';		//cookie作用路径
 $ecms_config['cks']['ckhttponly']=0;	//cookie的HttpOnly属性(0关闭,1开启,2只后台开启,3只前台开启)
 $ecms_config['cks']['cksecure']=0;		//cookie的secure属性(0为自动识别,1为关闭,2为开启,3只后台开启,4只前台开启)
-$ecms_config['cks']['ckvarpre']='mmete';		//前台cookie变量前缀
-$ecms_config['cks']['ckadminvarpre']='sijvl';		//后台cookie变量前缀
-$ecms_config['cks']['ckrnd']='Z3YUGzHqB6xJwQpv8UILiVnEEyR6QSqhsVc';	//COOKIE验证随机码(填写10~50个任意字符，最好多种字符组合)
-$ecms_config['cks']['ckrndtwo']='TMfFCDke31EEJUbztay0MppNyEz8ovEN9L';	//COOKIE验证随机码2(填写10~50个任意字符，最好多种字符组合)
-$ecms_config['cks']['ckrndthree']='5D8Ere3p5MQPTUSensKymNuygWFTlOXSY';	//COOKIE验证随机码3(填写10~50个任意字符，最好多种字符组合)
-$ecms_config['cks']['ckrndfour']='L5JqdaBEo6ns1Sx0YgE1Gyx3LiccWqEn';	//COOKIE验证随机码4(填写10~50个任意字符，最好多种字符组合)
-$ecms_config['cks']['ckrndfive']='boJlhu5598VkaNMEvKMf3IrA98eyUMv';	//COOKIE验证随机码5(填写10~50个任意字符，最好多种字符组合)
+$ecms_config['cks']['ckvarpre']='vzsdj';		//前台cookie变量前缀
+$ecms_config['cks']['ckadminvarpre']='kzmpj';		//后台cookie变量前缀
+$ecms_config['cks']['ckrnd']='Gw32bxDaC8IAJu7KVHSW5IVNtb7ShRXvRZb';	//COOKIE验证随机码(填写10~50个任意字符，最好多种字符组合)
+$ecms_config['cks']['ckrndtwo']='EBMJEmaVbieBdPXzHSTCbqArzJ6TNojMIk';	//COOKIE验证随机码2(填写10~50个任意字符，最好多种字符组合)
+$ecms_config['cks']['ckrndthree']='uTYMxTFlsUrgdTs1DKgorKDCx4KQQfSIs';	//COOKIE验证随机码3(填写10~50个任意字符，最好多种字符组合)
+$ecms_config['cks']['ckrndfour']='6A0m2koG95LR7CM1qU0iMrd0ZtDqwn2F';	//COOKIE验证随机码4(填写10~50个任意字符，最好多种字符组合)
+$ecms_config['cks']['ckrndfive']='AevjdbJz0QfFi9V7w6ovVWLRukj15Mc';	//COOKIE验证随机码5(填写10~50个任意字符，最好多种字符组合)
 
 //网站防火墙配置
 $ecms_config['fw']['eopen']=0;	//开启防火墙(0为关闭,1为开启)
@@ -175,7 +175,7 @@ $public_r=array('sitename'=>'帝国网站管理系统',
 'loadtempnum'=>50,
 'bakdbpath'=>'bdata',
 'bakdbzip'=>'zip',
-'downpass'=>'0Iw3q07qgIb5w8oj2pl9',
+'downpass'=>'I2bXQE9LLwrnmjzLEbkZ',
 'filechmod'=>1,
 'loginkey_ok'=>0,
 'tbname'=>'news',
@@ -249,7 +249,7 @@ $public_r=array('sitename'=>'帝国网站管理系统',
 'ebakcanlistdb'=>0,
 'keytog'=>2,
 'keytime'=>900,
-'keyrnd'=>'8oD0XIizV8cGuX50CUV8x2gDAMleWM5E',
+'keyrnd'=>'RrtEqI7pcfEO22TEkxvHa9ODBrHZ20bz',
 'checkdorepstr'=>',0,0,0,0,',
 'regkey_ok'=>0,
 'opengetdown'=>0,
@@ -340,7 +340,7 @@ $public_r=array('sitename'=>'帝国网站管理系统',
 'qinfoaddfen'=>0,
 'bakescapetype'=>1,
 'hkeytime'=>30,
-'hkeyrnd'=>'6Pfu8mrqsrDpSaZJo0WA1cZXrNVYfd8xyjz6',
+'hkeyrnd'=>'FghJFEflUgHFeQFhQlhMIjoecAmfMB2AAdzn',
 'mhavedatedo'=>0,
 'reportkey'=>0,
 'ctimeopen'=>0,
@@ -353,7 +353,7 @@ $public_r=array('sitename'=>'帝国网站管理系统',
 'ctimetags'=>0,
 'ctimegids'=>'',
 'ctimecids'=>'',
-'ctimernd'=>'qJUdwQDgKFwiBRqIkofg7KoZE2O5anteuBKKUfhuIE',
+'ctimernd'=>'hfcTfCDvPkGRvzYPQVAc1sZkwnL3nsqMJ8YS9Myx5P',
 'qmadminuids'=>'',
 'qmforumuids'=>'',
 'qmotheruids'=>'',

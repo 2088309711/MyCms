@@ -80,10 +80,10 @@ if ($public_r[addnews_ok]) {
         <title>柠吉内容管理系统(NJCMS)</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/statics/css/pintuer.css">
-        <script src="/statics/js/jquery.js"></script>
-        <script src="/statics/js/pintuer.js"></script>
-        <script src="/statics/js/respond.js"></script>
+        <link rel="stylesheet" href="/statics/pintuer/css/pintuer.css">
+        <script src="/statics/pintuer/js/jquery.js"></script>
+        <script src="/statics/pintuer/js/pintuer.js"></script>
+        <script src="/statics/pintuer/js/respond.js"></script>
     </head>
 
     <body>
@@ -293,7 +293,7 @@ if ($public_r[addnews_ok]) {
 
             </div>
         </div>
-        
+
     </div>
 
     </body>

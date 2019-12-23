@@ -2,6 +2,21 @@
 define('InEmpireCMSHfun', TRUE);
 //-------------- 公共区 ----------------------
 
+
+/**
+ * 调试（控制台输出）
+ * @param $data
+ * @param bool $stop
+ */
+function debug($data, $stop = true)
+{
+    echo '<script>';
+    echo 'console.log(' . json_encode($data) . ')';
+    echo '</script>';
+    if ($stop) die;
+}
+
+
 //返回后台风格
 function EcmsReturnAdminStyle()
 {
