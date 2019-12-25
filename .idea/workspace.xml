@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abe43063-c223-415d-892e-6b5d477b9522" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/tp5/application/admin/view/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/application/admin/view/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/application/admin/controller/NjClass.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/application/admin/controller/NjClass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/application/admin/controller/System.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/application/admin/controller/System.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp5/application/admin/view/nav_nj_class.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/application/admin/view/nav_nj_class.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp5/application/admin/view/other/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/application/admin/view/other/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp5/application/admin/view/plug_in/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/application/admin/view/plug_in/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp5/application/admin/view/shopping_mall/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/application/admin/view/shopping_mall/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp5/application/admin/view/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/application/admin/view/template/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp5/application/admin/view/user_manage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/application/admin/view/user_manage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/application/admin/view/nav_system.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/application/admin/view/nav_system.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/application/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/application/route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/runtime/log/201912/25.log" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/log/201912/25.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/08a11a09f23de4f02d4300089aa17a1b.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/08a11a09f23de4f02d4300089aa17a1b.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/144d9c9cc4b7b76ed02979cb122c18e9.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/144d9c9cc4b7b76ed02979cb122c18e9.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/1c3ffb754a37933eaaac4259c33626c8.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/1c3ffb754a37933eaaac4259c33626c8.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/276055759e351d22b6928df7c0a6fe9b.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/276055759e351d22b6928df7c0a6fe9b.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/55e0c2ada724f77d4f571fd4b9332fce.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/55e0c2ada724f77d4f571fd4b9332fce.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/7d5b20a5c1ecf60f8779acc1c795b85d.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/7d5b20a5c1ecf60f8779acc1c795b85d.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/cd3ad5c109a43788ea8174ba18a97515.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/cd3ad5c109a43788ea8174ba18a97515.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/df85ca85d0916af871090875cf9d3bf7.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/df85ca85d0916af871090875cf9d3bf7.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/f78be2228918996ba08c6450a721a434.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/f78be2228918996ba08c6450a721a434.php" afterDir="false" />
@@ -40,67 +41,30 @@
     <expand />
     <select />
   </component>
+  <component name="DockManager">
+    <window id="3">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="route.php" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/tp5/application/route.php">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="417">
+                    <caret line="111" selection-start-line="111" selection-end-line="111" />
+                    <folding>
+                      <element signature="e#6#80#0#PHP" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nav_template.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nav_template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav_user_manage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nav_user_manage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav_plug_in.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nav_plug_in.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav_shopping_mall.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nav_shopping_mall.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nav_other.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nav_other.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="888">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,12 +76,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>td class=&quot;red&quot;</find>
-      <find>&lt;td class=&quot;yellow&quot;&gt;&lt;/td&gt;</find>
-      <find>修改模板ID</find>
-      <find>&lt;strong&gt;</find>
-      <find>管理防采集随机字符</find>
-      <find>layui-nav-itemed</find>
       <find>tourl</find>
       <find>chengstate</find>
       <find>id=&quot;pr2&quot;</find>
@@ -142,12 +100,21 @@
       <find>$loginin</find>
       <find>debug</find>
       <find>&lt;dd&gt;&lt;a href=&quot;&quot;&gt; &lt;/a&gt;&lt;/dd&gt;</find>
+      <find>href=&quot;../../[\w/\.\?=&amp;]+&quot;</find>
+      <find>target=&quot;main&quot;</find>
+      <find>aaaaaaaaa/</find>
+      <find>href=&quot;&quot;</find>
+      <find>_</find>
+      <find>themeCustomFields</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>aaaaaaaaaaaaaaaaaaaaaaaa</replace>
       <replace>td class=&quot;yellow&quot;</replace>
       <replace>aaa</replace>
+      <replace>href=&quot;/index.php/aaaaaaaaa/&quot;</replace>
+      <replace>system_</replace>
+      <replace>href=&quot;/index.php/aaaaaaaaaaaaaaaaaaaaa&quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -156,57 +123,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/statics/admin/cache/js/njclass.js" />
-        <option value="$PROJECT_DIR$/tp5/runtime/cache/47/bce5c74f589f4867dbd57e9ca9f808.php" />
-        <option value="$PROJECT_DIR$/tp5/runtime/cache/nj_/47/bce5c74f589f4867dbd57e9ca9f808.php" />
-        <option value="$PROJECT_DIR$/tp5/application/config.php" />
-        <option value="$PROJECT_DIR$/tp5/runtime/cache/njcms/1d/10e6958403d23049d11a6d9f59aa22.php" />
-        <option value="$PROJECT_DIR$/tp5/thinkphp/library/think/db/Connection.php" />
-        <option value="$PROJECT_DIR$/tp5/application/common.php" />
-        <option value="$PROJECT_DIR$/e/admin/ecmsadmin.php" />
-        <option value="$PROJECT_DIR$/e/class/adminfun.php" />
-        <option value="$PROJECT_DIR$/e/admin/admin.php" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/model/Enewsuser.php" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/controller/Login.php" />
-        <option value="$PROJECT_DIR$/tp5/thinkphp/tpl/dispatch_jump.tpl" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/login/index.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/controller/Index.php" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/left_1.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/index/index.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/controller/Info.php" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/controller/ListNews.php" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/list_news/index.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/list_news/news2.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/list_news/news.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/left_2.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/left_3.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/controller/System.php" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/syatem/index.html" />
         <option value="$PROJECT_DIR$/tp5/application/admin/controller/NjClass.php" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/controller/temp.php" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/controller/Template.php" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/controller/User.php" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/controller/PlugIn.php" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/controller/ShoppingMall.php" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/controller/Other.php" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/controller/UserManage.php" />
-        <option value="$PROJECT_DIR$/tp5/application/route.php" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/system/index.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/info/index.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/index.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/info/news.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/nav_nj_class.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/template/index.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/user_manage/index.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/plug_in/index.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/shopping_mall/index.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/other/index.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/nav_template.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/nav_user_manage.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/nav_plug_in.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/nav_shopping_mall.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/nav_other.html" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/base.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/add_acquisition_node.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/add_custom_js.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/add_custom_list.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/add_custom_page.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/add_title_category.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/audit_info.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/batch_replace_field_value.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/batch_set_class_pro.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/batch_transfer_info.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/bulk_del_info.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/class_custom_field.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/clean_up_search_data.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/count_info_data.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/data_count.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/issue_info.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_annex.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_class.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_class_pageing.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_collection_node_paging.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_collection_nodes.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_custom_js.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_custom_js_type.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_custom_list_class.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_custom_lists.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_custom_page.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_custom_page_type.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_default_voting.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_headline_levels.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_info.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_recommendation_levels.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_review.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_search_data_sources.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_search_keyword.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_tags.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_tags_type.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_title_type.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_topic_class.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_topics.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_type.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_wap_templates.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/management_debris.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/mass_archiving_info.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/rank_count.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/set_tags_param.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/site_wide_search_settings.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/theme_custom_fields.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/update_fragments.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/update_topic.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/user_publish_count.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/nj_class/wap_set.html" />
       </list>
     </option>
   </component>
@@ -242,17 +209,6 @@
             <path>
               <item name="MyCms" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyCms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="e" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="MyCms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="e" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="MyCms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCms" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tp5" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -284,24 +240,6 @@
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="MyCms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tp5" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="other" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="MyCms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tp5" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="shopping_mall" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -315,6 +253,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../njim" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -358,16 +297,15 @@
       <workItem from="1576912822811" duration="10559000" />
       <workItem from="1576929733040" duration="25000" />
       <workItem from="1577018119072" duration="14038000" />
-      <workItem from="1577111088795" duration="50889000" />
+      <workItem from="1577111088795" duration="58620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121214000" />
+    <option name="totallyTimeSpent" value="128945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -375,7 +313,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18005952" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24479167" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="Database" order="3" side_tool="true" weight="0.3296131" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
@@ -409,415 +347,377 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/e/admin/ShowClassNav.php">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/add_acquisition_node.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1384">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#select#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/common.php">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/add_custom_js.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#6#80#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e/admin/ListAllInfo.php">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/add_custom_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="333" column="22" selection-start-line="333" selection-start-column="22" selection-end-line="333" selection-end-column="22" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e/data/html/list/alllistinfo.php">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/add_custom_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="378" column="77" selection-start-line="378" selection-start-column="77" selection-end-line="378" selection-end-column="77" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e/class/connect.php">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/add_title_category.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="881" column="9" selection-start-line="881" selection-start-column="9" selection-end-line="881" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e/admin/admin.php">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/audit_info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e/admin/index.php">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/batch_replace_field_value.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="98" column="59" selection-start-line="98" selection-start-column="59" selection-end-line="98" selection-end-column="59" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e/admin/ecmsadmin.php">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/batch_set_class_pro.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e/class/adminfun.php">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/batch_transfer_info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="220" column="6" selection-start-line="220" selection-start-column="6" selection-end-line="220" selection-end-column="6" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e/class/functions.php">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/bulk_del_info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4544" column="20" lean-forward="true" selection-start-line="4544" selection-start-column="20" selection-end-line="4544" selection-end-column="20" />
-          <folding>
-            <element signature="e#50#56#1" expanded="true" />
-            <element signature="e#85#91#0" expanded="true" />
-            <element signature="e#91#97#0" expanded="true" />
-            <element signature="e#77#83#1" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/thinkphp/tpl/think_exception.tpl">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/class_custom_field.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4536" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/thinkphp/tpl/dispatch_jump.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/model/Enewsuser.php">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/clean_up_search_data.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statics/pintuer/html/admin.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/count_info_data.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1458">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/login/index.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/data_count.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="100" selection-start-line="100" selection-end-line="100" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/controller/Info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/controller/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-          <folding>
-            <element signature="e#6#100#0#PHP" expanded="true" />
-            <element signature="e#136#166#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/controller/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding>
-            <element signature="e#40#61#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/list_news/news2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10304">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nav_info.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="57" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/controller/System.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/controller/PlugIn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/controller/ShoppingMall.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/controller/Other.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/controller/NjClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/controller/Template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/controller/UserManage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/controller/Info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="e#135#166#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
-          <folding>
-            <element signature="e#6#80#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/system/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/info/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e/admin/adminstyle/1/menu/system.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-720" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e/admin/main.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e/admin/adminstyle/1/menu/classdata.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e/admin/adminstyle/1/left.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" lean-forward="true" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/info/news.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/issue_info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nav_nj_class.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_annex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nav_system.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_class.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="135" column="32" lean-forward="true" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/plug_in/index.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_class_pageing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/shopping_mall/index.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_collection_node_paging.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/other/index.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_collection_nodes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/template/index.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_custom_js.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/user_manage/index.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_custom_js_type.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="8" lean-forward="true" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nav_template.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_custom_list_class.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nav_user_manage.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_custom_lists.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nav_plug_in.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_custom_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nav_shopping_mall.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_custom_page_type.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nav_other.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_default_voting.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/base.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_headline_levels.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_recommendation_levels.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_review.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_search_data_sources.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_search_keyword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_tags.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_tags_type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_title_type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_topic_class.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_topics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/manage_wap_templates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/management_debris.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/mass_archiving_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/rank_count.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/set_tags_param.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/site_wide_search_settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/theme_custom_fields.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/update_fragments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/update_topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/user_publish_count.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nj_class/wap_set.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

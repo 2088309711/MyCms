@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:67:"D:\php-workspace\MyCms/tp5/application/admin\view\system\index.html";i:1577255094;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577260328;s:65:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_system.html";i:1577181560;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:67:"D:\php-workspace\MyCms/tp5/application/admin\view\system\index.html";i:1577255094;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577260328;s:65:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_system.html";i:1577263659;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,28 +70,13 @@
     <a class="" href="javascript:;">系统设置</a>
     <dl class="layui-nav-child">
 
-
-        <dd><a href="../../SetEnews.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">系统参数设置</a>
-        </dd>
-        <dd><a href="../../pub/SetRewrite.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">伪静态参数设置</a>
-        </dd>
-        <dd><a href="../../pub/SetPageCache.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">动态页缓存设置</a>
-        </dd>
-        <dd><a href="../../pub/SetDigg.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">DIGG顶设置</a></dd>
-
-
-        <dd><a href="../../pub/ListPubVar.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">扩展变量</a></dd>
-
-
-        <dd><a href="../../pub/SetSafe.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">安全参数配置</a></dd>
-
-
-        <dd><a href="../../pub/SetFirewall.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">网站防火墙</a>
-        </dd>
-
+        <dd><a href="/index.php/system_param_set">系统参数设置</a></dd>
+        <dd><a href="/index.php/pseudo_static_param_set">伪静态参数设置</a></dd>
+        <dd><a href="/index.php/dynamic_page_cache_set">动态页缓存设置</a></dd>
+        <dd><a href="/index.php/digg_top_set">DIGG顶设置</a></dd>
+        <dd><a href="/index.php/extended_variables">扩展变量</a></dd>
+        <dd><a href="/index.php/security_param_config">安全参数配置</a></dd>
+        <dd><a href="/index.php/website_firewall">网站防火墙</a></dd>
 
     </dl>
 </li>
@@ -102,17 +87,11 @@
     <dl class="layui-nav-child">
 
 
-        <dd><a href="../../ReHtml/ChangeData.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">数据更新中心</a></dd>
-        <dd><a href="../../ReHtml/ReInfoUrl.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">更新信息页地址</a></dd>
-        <dd><a href="../../ReHtml/ChangePageCache.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">更新动态页缓存</a></dd>
-        <dd><a href="../../ReHtml/DoUpdateData.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">数据整理</a></dd>
-
-
-        <dd><a href="../../PostUrlData.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">远程发布</a>
+        <dd><a href="/index.php/data_update_center">数据更新中心</a></dd>
+        <dd><a href="/index.php/update_info_page_address">更新信息页地址</a></dd>
+        <dd><a href="/index.php/update_dynamic_page_cache">更新动态页缓存</a></dd>
+        <dd><a href="/index.php/data_collation">数据整理</a></dd>
+        <dd><a href="/index.php/remote_publish">远程发布</a>
         </dd>
 
 
@@ -124,11 +103,8 @@
     <a class="" href="javascript:;">数据表与系统模型</a>
     <dl class="layui-nav-child">
 
-        <dd><a href="../../db/AddTable.php?enews=AddTable&ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >新建数据表</a></dd>
-        <dd><a href="../../db/ListTable.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理数据表</a></dd>
+        <dd><a href="/index.php/new_data_table">新建数据表</a></dd>
+        <dd><a href="/index.php/management_data_sheet">管理数据表</a></dd>
     </dl>
 </li>
 
@@ -138,13 +114,10 @@
     <dl class="layui-nav-child">
 
 
-        <dd><a href="../../ListDo.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理刷新任务</a></dd>
+        <dd><a href="/index.php/manage_refresh_tasks">管理刷新任务</a></dd>
 
 
-        <dd><a href="../../other/ListTask.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >管理计划任务</a></dd>
+        <dd><a href="/index.php/manage_scheduled_tasks">管理计划任务</a></dd>
 
 
     </dl>
@@ -155,45 +128,25 @@
     <a class="" href="javascript:;">工作流</a>
     <dl class="layui-nav-child">
 
-        <dd><a href="../../workflow/AddWf.php?enews=AddWorkflow&ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">增加工作流</a></dd>
-        <dd><a href="../../workflow/ListWf.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理工作流</a></dd>
+        <dd><a href="/index.php/add_workflow">增加工作流</a></dd>
+        <dd><a href="/index.php/manage_workflow">管理工作流</a></dd>
 
 
     </dl>
 </li>
 
 
-<li class="layui-nav-item">
-    <a class="" href="javascript:;">优化方案</a>
-    <dl class="layui-nav-child">
-
-        <dd><a href="../../db/ListYh.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理优化方案</a></dd>
-
-    </dl>
-</li>
+<li class="layui-nav-item"><a href="/index.php/management_optimization_plan">管理优化方案</a></li>
 
 
-<li class="layui-nav-item">
-    <a class="" href="javascript:;">网站多访问端</a>
-    <dl class="layui-nav-child">
-
-        <dd><a href="../../moreport/ListMoreport.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >管理网站访问端</a></dd>
-
-    </dl>
-</li>
+<li class="layui-nav-item"><a href="/index.php/manage_site_visitors">管理网站访问端</a></li>
 
 
 <li class="layui-nav-item">
     <a class="" href="javascript:;">扩展菜单</a>
     <dl class="layui-nav-child">
 
-        <dd><a href="../../other/MenuClass.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理菜单</a></dd>
+        <dd><a href="/index.php/management_menu">管理菜单</a></dd>
 
     </dl>
 </li>
@@ -204,18 +157,12 @@
     <dl class="layui-nav-child">
 
 
-        <dd><a href="../../ebak/ChangeDb.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >备份数据</a></dd>
-        <dd><a href="../../ebak/ReData.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >恢复数据</a></dd>
-        <dd><a href="../../ebak/ChangePath.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >管理备份目录</a></dd>
+        <dd><a href="/index.php/backup_data">备份数据</a></dd>
+        <dd><a href="/index.php/restore_data">恢复数据</a></dd>
+        <dd><a href="/index.php/manage_backup_directories">管理备份目录</a></dd>
 
 
-        <dd><a href="../../db/DoSql.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >执行SQL语句</a></dd>
+        <dd><a href="/index.php/execute_sql_statement">执行SQL语句</a></dd>
 
 
     </dl>

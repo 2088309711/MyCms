@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:69:"D:\php-workspace\MyCms/tp5/application/admin\view\template\index.html";i:1577257374;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577255049;s:67:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_template.html";i:1577258204;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:69:"D:\php-workspace\MyCms/tp5/application/admin\view\template\index.html";i:1577257374;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577260328;s:67:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_template.html";i:1577258204;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -56,7 +56,6 @@
                     贤心
                 </a>
                 <dl class="layui-nav-child">
-                    <dd><a href="">基本资料</a></dd>
                     <dd><a href="">安全设置</a></dd>
                 </dl>
             </li>
