@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:78:"D:\php-workspace\MyCms/tp5/application/admin\view\system\system_param_set.html";i:1577263510;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577260328;s:65:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_system.html";i:1577262156;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:78:"D:\php-workspace\MyCms/tp5/application/admin\view\system\system_param_set.html";i:1577290913;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577286066;s:65:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_system.html";i:1577263659;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,6 +21,21 @@
             color: #bdbec0;
         }
     </style>
+
+    
+<style>
+    .layui-form-label {
+        width: 200px !important;
+    }
+
+    .layui-input-block {
+        margin-left: 230px !important;
+    }
+
+
+</style>
+
+
 </head>
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
@@ -53,10 +68,10 @@
             <li class="layui-nav-item">
                 <a href="javascript:;">
                     <i class="layui-icon layui-icon-username"></i>
-                    贤心
+                    用户名
                 </a>
                 <dl class="layui-nav-child">
-                    <dd><a href="">安全设置</a></dd>
+                    <dd><a href="/index.php/update_user_data">安全设置</a></dd>
                 </dl>
             </li>
             <li class="layui-nav-item"><a href="">退出</a></li>
@@ -136,24 +151,10 @@
 </li>
 
 
-<li class="layui-nav-item">
-    <a class="" href="javascript:;">优化方案</a>
-    <dl class="layui-nav-child">
-
-        <dd><a href="/index.php/management_optimization_plan">管理优化方案</a></dd>
-
-    </dl>
-</li>
+<li class="layui-nav-item"><a href="/index.php/management_optimization_plan">管理优化方案</a></li>
 
 
-<li class="layui-nav-item">
-    <a class="" href="javascript:;">网站多访问端</a>
-    <dl class="layui-nav-child">
-
-        <dd><a href="/index.php/manage_site_visitors">管理网站访问端</a></dd>
-
-    </dl>
-</li>
+<li class="layui-nav-item"><a href="/index.php/manage_site_visitors">管理网站访问端</a></li>
 
 
 <li class="layui-nav-item">
@@ -188,7 +189,360 @@
     </div>
 
     
-<div id="main-content" class="layui-body" style="bottom:0;">system</div>
+<div id="main-content" class="layui-body" style="bottom:0;">
+
+
+    <div class="layui-fluid">
+
+        <div class="layui-row" style="margin-top: 15px;">
+
+            <strong style="">位置：<a href="/index.php/system_param_set">系统参数设置</a></strong>
+
+        </div>
+
+
+        <div class="layui-tab layui-tab-brief" style="margin: 0 0 5px;" lay-filter="docDemoTabBrief">
+            <ul class="layui-tab-title">
+                <li class="layui-this">基本属性</li>
+                <li>用户设置</li>
+                <li>文件设置</li>
+                <li>JS设置</li>
+                <li>分组生成</li>
+                <li>搜索设置</li>
+                <li>信息设置</li>
+                <li>FTP/Email</li>
+                <li>模型设置</li>
+                <li>图片设置</li>
+            </ul>
+
+
+            <div class="layui-tab-content" style="padding: 20px 0;">
+
+
+                <div class="layui-tab-item layui-show">
+
+
+                    <form class="layui-form" action="">
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">传输协议</label>
+                            <div class="layui-input-inline">
+                                <select name="city" lay-verify="required">
+                                    <option value="0">系统自动选择</option>
+                                    <option value="1">全站http://</option>
+                                    <option value="1">全站https://</option>
+                                    <option value="1">后台https，前台http</option>
+                                    <option value="1">后台http，前台https</option>
+                                </select>
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">一般默认即可，使用https需要服务器支持</div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">站点名称</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="title" required lay-verify="required"
+                                       placeholder="请输入站点名称" class="layui-input">
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">辅助文字</div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">网站地址</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="title" required lay-verify="required" placeholder="请输入网站地址"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">辅助文字</div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">附件地址</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="title" required lay-verify="required" placeholder="请输入附件地址"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">辅助文字</div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">管理员邮箱</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="title" required lay-verify="required" placeholder="请输入邮箱"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">辅助文字</div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">网站关键字</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="title" required lay-verify="required" placeholder="请输入关键字"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">辅助文字</div>
+                        </div>
+
+
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">网站简介</label>
+                            <div class="layui-input-block">
+                                <textarea name="desc" placeholder="请输入简介" class="layui-textarea"></textarea>
+                            </div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">首页文件扩展名</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="title" required lay-verify="required" placeholder="请输入扩展名"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">辅助文字</div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">首页模式</label>
+                            <div class="layui-input-block">
+                                <input type="radio" name="mode" value="0" title="静态" checked>
+                                <input type="radio" name="mode" value="1" title="动态">
+                            </div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">首页链接加文件名</label>
+                            <div class="layui-input-block">
+                                <input type="radio" name="add" value="0" title="增加">
+                                <input type="radio" name="add" value="1" title="不增加" checked>
+                            </div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">前台PHP超时时间设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="title" required lay-verify="required" placeholder="请输入超时时间"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">辅助文字</div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">后台PHP超时时间设置</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="title" required lay-verify="required" placeholder="请输入超时时间"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">辅助文字</div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">关闭前台所有动态页面</label>
+                            <div class="layui-input-inline">
+                                <input type="radio" name="dynamic" value="0" title="是">
+                                <input type="radio" name="dynamic" value="1" title="否" checked>
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">如果开启，前台所有动态文件都无法使用，但性能和安全性最高</div>
+                        </div>
+
+
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">关闭动态页面提示内容</label>
+                            <div class="layui-input-block">
+                                <textarea name="desc" placeholder="请输入提示内容" class="layui-textarea"></textarea>
+                            </div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">关闭前台模块相关功能</label>
+                            <div class="layui-input-block">
+
+
+                                <input type="checkbox" name="like[write]" title="下载">
+                                <input type="checkbox" name="like[read]" title="电影" checked>
+                                <input type="checkbox" name="like[dai]" title="商城">
+                                <input type="checkbox" name="like[dai]" title="在线支付">
+                                <input type="checkbox" name="like[dai]" title="RSS">
+                                <input type="checkbox" name="like[dai]" title="搜索">
+                                <input type="checkbox" name="like[dai]" title="全站搜索">
+                                <input type="checkbox" name="like[dai]" title="错误报告">
+                                <input type="checkbox" name="like[dai]" title="会员">
+                                <input type="checkbox" name="like[dai]" title="评论">
+                                <input type="checkbox" name="like[dai]" title="打印">
+                                <input type="checkbox" name="like[dai]" title="外部登录">
+                                <input type="checkbox" name="like[dai]" title="结合项">
+                                <input type="checkbox" name="like[dai]" title="留言板">
+                                <input type="checkbox" name="like[dai]" title="反馈">
+                                <input type="checkbox" name="like[dai]" title="会员列表">
+
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">不开启操作的时间点</label>
+                            <div class="layui-input-block">
+                                <input type="checkbox" name="like[0]" title="0点">
+                                <input type="checkbox" name="like[1]" title="1点">
+                                <input type="checkbox" name="like[2]" title="2点">
+                                <input type="checkbox" name="like[3]" title="3点">
+                                <input type="checkbox" name="like[4]" title="4点">
+                                <input type="checkbox" name="like[5]" title="5点">
+                                <input type="checkbox" name="like[6]" title="6点">
+                                <input type="checkbox" name="like[7]" title="7点">
+                                <input type="checkbox" name="like[8]" title="8点">
+                                <input type="checkbox" name="like[9]" title="9点">
+                                <input type="checkbox" name="like[10]" title="10点">
+                                <input type="checkbox" name="like[11]" title="11点">
+                                <input type="checkbox" name="like[12]" title="12点">
+                                <input type="checkbox" name="like[13]" title="13点">
+                                <input type="checkbox" name="like[14]" title="14点">
+                                <input type="checkbox" name="like[15]" title="15点">
+                                <input type="checkbox" name="like[16]" title="16点">
+                                <input type="checkbox" name="like[17]" title="17点">
+                                <input type="checkbox" name="like[18]" title="18点">
+                                <input type="checkbox" name="like[19]" title="19点">
+                                <input type="checkbox" name="like[20]" title="20点">
+                                <input type="checkbox" name="like[21]" title="21点">
+                                <input type="checkbox" name="like[22]" title="22点">
+                                <input type="checkbox" name="like[23]" title="23点">
+
+                            </div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">限定操作时间的操作</label>
+                            <div class="layui-input-block">
+
+
+                                <input type="checkbox" name="like[write]" title="注册会员">
+                                <input type="checkbox" name="like[read]" title="投稿" checked>
+                                <input type="checkbox" name="like[dai]" title="评论">
+                                <input type="checkbox" name="like[dai]" title="留言板">
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">远程保存忽略地址</label>
+                            <div class="layui-input-block">
+                                <textarea name="desc" placeholder="请输入远程保存忽略地址" class="layui-textarea"></textarea>
+                            </div>
+                        </div>
+
+
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">前台允许提交的来源地址</label>
+                            <div class="layui-input-block">
+                                <textarea name="desc" placeholder="请输入前台允许提交的来源地址" class="layui-textarea"></textarea>
+                            </div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">验证码字符组成</label>
+                            <div class="layui-input-inline">
+                                <select name="city" lay-verify="required">
+
+                                    <option value="0">数字</option>
+                                    <option value="1">字母</option>
+                                    <option value="1">汉字</option>
+                                    <option value="2">数字+字母</option>
+                                    <option value="2">数字+汉字</option>
+                                    <option value="2">字母+汉字</option>
+                                    <option value="2">数字+字母+汉字</option>
+
+                                </select>
+                            </div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">后台验证码过期时间</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="title" required lay-verify="required" placeholder="请输入过期时间"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">辅助文字</div>
+                        </div>
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">后台验证码加密字符串</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="title" required lay-verify="required" placeholder="请输入加密字符串"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">辅助文字</div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">前台验证码过期时间</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="title" required lay-verify="required" placeholder="请输入过期时间"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">辅助文字</div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">前台验证码加密字符串</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="title" required lay-verify="required" placeholder="请输入加密字符串"
+                                       autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">辅助文字</div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">验证码背景色</label>
+                            <div class="layui-input-inline">
+                                <input type="text" value="" placeholder="点击右边方框选择颜色" class="layui-input"
+                                       id="test-form-input">
+                            </div>
+                            <div class="layui-inline" style="left: -11px;">
+                                <div id="test-form"></div>
+                            </div>
+                        </div>
+
+
+                        <div class="layui-form-item">
+                            <div class="layui-input-block">
+                                <button class="layui-btn" lay-submit lay-filter="formDemo">立即提交</button>
+                                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+                <div class="layui-tab-item">2</div>
+                <div class="layui-tab-item">3</div>
+                <div class="layui-tab-item">4</div>
+                <div class="layui-tab-item">5</div>
+                <div class="layui-tab-item">6</div>
+                <div class="layui-tab-item">7</div>
+                <div class="layui-tab-item">8</div>
+                <div class="layui-tab-item">9</div>
+                <div class="layui-tab-item">10</div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
 
 
 </div>
@@ -214,6 +568,30 @@
                 }
             });
         })
+    });
+</script>
+
+<script>
+    //Demo
+    layui.use(['form', 'colorpicker'], function () {
+        var form = layui.form, $ = layui.$
+            , colorpicker = layui.colorpicker;
+        //监听提交
+        form.on('submit(formDemo)', function (data) {
+            layer.msg(JSON.stringify(data.field));
+            return false;
+        });
+
+
+        //表单赋值
+        colorpicker.render({
+            elem: '#test-form'
+            , color: '#1c97f5'
+            , done: function (color) {
+                $('#test-form-input').val(color);
+            }
+        });
+
     });
 </script>
 

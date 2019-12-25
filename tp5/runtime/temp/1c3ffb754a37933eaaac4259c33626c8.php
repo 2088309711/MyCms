@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:65:"D:\php-workspace\MyCms/tp5/application/admin\view\info\index.html";i:1577255120;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577260328;s:63:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_info.html";i:1577248019;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:65:"D:\php-workspace\MyCms/tp5/application/admin\view\info\index.html";i:1577255120;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577284717;s:63:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_info.html";i:1577248019;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +23,7 @@
     </style>
 </head>
 <body class="layui-layout-body">
-<div class="layui-layout layui-layout-admin">
+<div class="layui-layout layui-layout-admin" style="min-width: 1200px;">
     <div class="layui-header">
         <div class="layui-logo" style="width:140px;">柠吉CMS</div>
         <div id="nav-switch">
@@ -53,10 +53,10 @@
             <li class="layui-nav-item">
                 <a href="javascript:;">
                     <i class="layui-icon layui-icon-username"></i>
-                    贤心
+                    用户名
                 </a>
                 <dl class="layui-nav-child">
-                    <dd><a href="">安全设置</a></dd>
+                    <dd><a href="/index.php/update_user_data">安全设置</a></dd>
                 </dl>
             </li>
             <li class="layui-nav-item"><a href="">退出</a></li>

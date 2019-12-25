@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:98:"D:\php-workspace\MyCms/tp5/application/admin\view\user_manage\manage_external_login_interface.html";i:1577281037;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577260328;s:70:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_user_manage.html";i:1577280120;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:98:"D:\php-workspace\MyCms/tp5/application/admin\view\user_manage\manage_external_login_interface.html";i:1577281037;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577284435;s:70:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_user_manage.html";i:1577280120;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -56,7 +56,7 @@
                     贤心
                 </a>
                 <dl class="layui-nav-child">
-                    <dd><a href="">安全设置</a></dd>
+                    <dd><a href="/index.php/update_user_data">安全设置</a></dd>
                 </dl>
             </li>
             <li class="layui-nav-item"><a href="">退出</a></li>
