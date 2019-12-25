@@ -1,0 +1,186 @@
+{extend name="base" /}
+{block name="left"}{include file="left_2" /}{/block}
+{block name="content"}
+<div id="main-content" class="layui-body layui-bg-gray" style="bottom:0;">
+
+    <div style="padding: 15px;">
+
+        <h1 style="text-align: center; margin-bottom: 10px;">您好，欢迎使用柠吉网站管理系统(NJCMS)！</h1>
+
+        <div class="layui-card">
+            <div class="layui-card-header"><strong>我的状态</strong></div>
+            <div class="layui-card-body">
+                登录者：123456，所属用户组：超级管理员<br>
+                这是您第 13 次登录，上次登录时间：2019-12-24 12:46:32 ，登录IP：127.0.0.1:49610
+            </div>
+        </div>
+
+
+        <div class="layui-card">
+            <div class="layui-card-header"><strong>快捷菜单</strong></div>
+            <div class="layui-card-body">
+
+
+                <div style="margin-bottom: 10px;">
+                    <span>信息操作：</span>
+                    <div class="layui-btn-group">
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">增加信息</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">管理信息</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">审核信息</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">签发信息</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">管理评论</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">更新碎片</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">更新专题</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">数据统计</a>
+
+                    </div>
+                </div>
+
+
+                <div style="margin-bottom: 10px;">
+                    <span>栏目操作：</span>
+                    <div class="layui-btn-group">
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">管理栏目</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">管理专题</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">管理采集</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">管理附件</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">系统参数设置</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">数据更新中心</a>
+
+
+                    </div>
+                </div>
+
+
+                <div style="margin-bottom: 10px;">
+                    <span>用户操作：</span>
+                    <div class="layui-btn-group">
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">审核会员</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">管理会员</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">管理登录日志</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">管理操作日志</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">修改个人资料</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">用户发布统计</a>
+                    </div>
+                </div>
+
+
+                <div style="margin-bottom: 5px;">
+                    <span>反馈管理：</span>
+                    <div class="layui-btn-group">
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">管理留言</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">管理反馈信息</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">管理错误报告</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">管理订单</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">管理支付记录</a>
+                        <a href="#" type="button" class="layui-btn layui-btn-primary">查看目录权限状态</a>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="layui-card">
+            <div class="layui-card-header"><strong>系统信息</strong></div>
+            <div class="layui-card-body">
+
+
+                <table class="layui-table" style="margin: 0;" lay-skin="nob">
+
+                    <tr>
+                        <th colspan="2"><strong>网站信息</strong></th>
+                        <th colspan="2"><strong>服务器信息</strong></th>
+                    </tr>
+
+                    <tr>
+                        <td>会员注册：</td>
+                        <td>开启</td>
+                        <td>服务器软件：</td>
+                        <td>Apache/2.4.23 (Win32) OpenSSL/1.0.2j mod_fcgid/2.3.9</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>会员投稿：</td>
+                        <td>关闭</td>
+                        <td>操作系统：</td>
+                        <td>WINNT</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>管理员个数：</td>
+                        <td><a href="user/ListUser.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu">1</a> 人</td>
+                        <td>PHP版本：</td>
+                        <td>7.0.12</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>未审核评论：</td>
+                        <td>
+                            <a href="openpage/AdminPage.php?leftfile=..%2Fpl%2FPlNav.php%3Fehash_kVM8H%3DNNosqbNY6q7AZKK8npfu&mainfile=..%2Fpl%2FListAllPl.php%3Fchecked%3D2%26ehash_kVM8H%3DNNosqbNY6q7AZKK8npfu&title=%E7%AE%A1%E7%90%86%E8%AF%84%E8%AE%BA&ehash_kVM8H=NNosqbNY6q7AZKK8npfu">0</a>
+                            条
+                        </td>
+                        <td>MYSQL版本：</td>
+                        <td>5.5.53</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>未审核会员：</td>
+                        <td>
+                            <a href="member/ListMember.php?sear=1&schecked=1&ehash_kVM8H=NNosqbNY6q7AZKK8npfu">0</a>
+                            人
+                        </td>
+                        <td>全局变量：</td>
+                        <td>关闭（建议关闭）</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>过期广告：</td>
+                        <td><a href="tool/ListAd.php?time=1&ehash_kVM8H=NNosqbNY6q7AZKK8npfu">0</a>
+                            个
+                        </td>
+                        <td>魔术引用：</td>
+                        <td>关闭（建议开启）</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>登陆者IP：</td>
+                        <td>127.0.0.1</td>
+                        <td>上传文件：</td>
+                        <td>可以（最大文件：2M，表单：8M）</td>
+                    </tr>
+
+
+                    <tr>
+                        <td>程序版本：</td>
+                        <td><a href="http://www.phome.net" target="_blank">NJCMS
+                            v7.5 Free</a> (201804091030)
+                        </td>
+                        <td>当前时间：</td>
+                        <td>2019-12-24 17:56:42</td>
+                    </tr>
+
+                    <tr>
+                        <td>程序编码：</td>
+                        <td>UTF-8</td>
+                        <td>使用域名：</td>
+                        <td>mycms.com</td>
+                    </tr>
+
+                </table>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+{/block}

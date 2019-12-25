@@ -1,0 +1,48 @@
+---------------------------------------------------------------
+[ 2019-12-25T13:49:11+08:00 ] 127.0.0.1 GET mycms.com/index.php/system
+[运行时间：0.029069s] [吞吐率：34.40req/s] [内存消耗：1,116.73kb] [文件加载：34]
+[ error ] [0]模板文件不存在:D:\php-workspace\MyCms/tp5/application/admin\view\system\index.html[D:\php-workspace\MyCms\tp5\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2019-12-25T14:06:16+08:00 ] 127.0.0.1 GET mycms.com/index.php/class
+[运行时间：0.026658s] [吞吐率：37.51req/s] [内存消耗：1,117.02kb] [文件加载：34]
+[ error ] [0]模板文件不存在:D:\php-workspace\MyCms/tp5/application/admin\view\nj_class\index.html[D:\php-workspace\MyCms\tp5\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2019-12-25T14:14:22+08:00 ] 127.0.0.1 GET mycms.com/index.php/class
+[运行时间：0.025847s] [吞吐率：38.69req/s] [内存消耗：1,122.33kb] [文件加载：34]
+[ error ] [0]模板文件不存在:D:\php-workspace\MyCms/tp5/application/admin\view\nj_class\index.html[D:\php-workspace\MyCms\tp5\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2019-12-25T14:15:14+08:00 ] 127.0.0.1 GET mycms.com/index.php/template
+[运行时间：0.025748s] [吞吐率：38.84req/s] [内存消耗：1,122.36kb] [文件加载：34]
+[ error ] [0]模板文件不存在:D:\php-workspace\MyCms/tp5/application/admin\view\template\index.html[D:\php-workspace\MyCms\tp5\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2019-12-25T14:15:39+08:00 ] 127.0.0.1 GET mycms.com/index.php/user_manage
+[运行时间：0.025611s] [吞吐率：39.05req/s] [内存消耗：1,122.36kb] [文件加载：34]
+[ error ] [0]模板文件不存在:D:\php-workspace\MyCms/tp5/application/admin\view\user_manage\index.html[D:\php-workspace\MyCms\tp5\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2019-12-25T14:16:04+08:00 ] 127.0.0.1 GET mycms.com/index.php/plug_in
+[运行时间：0.034734s] [吞吐率：28.79req/s] [内存消耗：1,122.34kb] [文件加载：34]
+[ error ] [0]模板文件不存在:D:\php-workspace\MyCms/tp5/application/admin\view\plug_in\index.html[D:\php-workspace\MyCms\tp5\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2019-12-25T14:16:28+08:00 ] 127.0.0.1 GET mycms.com/index.php/shopping_mall
+[运行时间：0.024802s] [吞吐率：40.32req/s] [内存消耗：1,122.41kb] [文件加载：34]
+[ error ] [0]模板文件不存在:D:\php-workspace\MyCms/tp5/application/admin\view\shopping_mall\index.html[D:\php-workspace\MyCms\tp5\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2019-12-25T14:16:48+08:00 ] 127.0.0.1 GET mycms.com/index.php/other
+[运行时间：0.027174s] [吞吐率：36.80req/s] [内存消耗：1,122.30kb] [文件加载：34]
+[ error ] [0]模板文件不存在:D:\php-workspace\MyCms/tp5/application/admin\view\other\index.html[D:\php-workspace\MyCms\tp5\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2019-12-25T14:20:58+08:00 ] 127.0.0.1 GET mycms.com/index.php/info
+[运行时间：0.027330s] [吞吐率：36.59req/s] [内存消耗：1,125.59kb] [文件加载：34]
+[ error ] [0]模板文件不存在:D:\php-workspace\MyCms/tp5/application/admin\view\info\index.html[D:\php-workspace\MyCms\tp5\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2019-12-25T14:24:29+08:00 ] 127.0.0.1 GET mycms.com/index.php/system
+[运行时间：0.027475s] [吞吐率：36.40req/s] [内存消耗：1,135.48kb] [文件加载：34]
+[ error ] [0]模板文件不存在:[D:\php-workspace\MyCms\tp5\thinkphp\library\think\Template.php:1074]
+---------------------------------------------------------------
+[ 2019-12-25T14:24:41+08:00 ] 127.0.0.1 GET mycms.com/index.php/system
+[运行时间：0.025647s] [吞吐率：38.99req/s] [内存消耗：1,135.53kb] [文件加载：34]
+[ error ] [0]模板文件不存在:nav_system.html[D:\php-workspace\MyCms\tp5\thinkphp\library\think\Template.php:1074]
+---------------------------------------------------------------
+[ 2019-12-25T14:25:14+08:00 ] 127.0.0.1 GET mycms.com/index.php/info
+[运行时间：0.027118s] [吞吐率：36.88req/s] [内存消耗：1,140.77kb] [文件加载：34]
+[ error ] [0]模板文件不存在:[D:\php-workspace\MyCms\tp5\thinkphp\library\think\Template.php:1074]

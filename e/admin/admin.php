@@ -8,6 +8,9 @@ $link=db_connect();
 $empire=new mysqlquery();
 //验证用户
 $lur=is_login();
+
+
+
 $logininid=$lur['userid'];
 $loginin=$lur['username'];
 $loginrnd=$lur['rnd'];

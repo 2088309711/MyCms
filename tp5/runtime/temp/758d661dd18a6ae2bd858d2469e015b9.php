@@ -1,4 +1,5 @@
-{__NOLAYOUT__}<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:57:"D:\php-workspace\MyCms\tp5\thinkphp\tpl\dispatch_jump.tpl";i:1577171263;}*/ ?>
+<!DOCTYPE html>
 <html lang="zh-cn">
 
 <head>
@@ -24,14 +25,11 @@
         <div style="text-align: center;padding: 20px 0 10px 0;">
 
 
-            <?php switch ($code) {?>
-            <?php case 1:?>
+            <?php switch ($code) {case 1:?>
             <i class="layui-icon layui-icon-face-smile" style="font-size: 40px; color: #1E9FFF;"></i>
-            <?php break;?>
-            <?php case 0:?>
+            <?php break;case 0:?>
             <i class="layui-icon layui-icon-face-cry" style="font-size: 40px; color: #FF5722;"></i>
-            <?php break;?>
-            <?php } ?>
+            <?php break;} ?>
 
             <h2 style="margin-top: 15px;"><?php echo(strip_tags($msg));?></h2>
 

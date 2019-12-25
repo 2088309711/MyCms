@@ -8,9 +8,19 @@ $query = "select id,classid,isurl,titleurl,isqf,havehtml,istop,isgood,firsttitle
 
 
 
+
+
 $sql = $empire->query($query);
+
+
+
+
 //返回头条和推荐级别名称
 $ftnr = ReturnFirsttitleNameList(0, 0);
+
+
+
+
 $ftnamer = $ftnr['ftr'];
 $ignamer = $ftnr['igr'];
 $searchisgoods = '';
@@ -25,6 +35,10 @@ if ($showfirsttitle > 0) {
 } else {
     $searchfirsttitles = $ftnr['ftname'];
 }
+
+
+//debug($searchfirsttitles);
+
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>

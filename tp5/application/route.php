@@ -25,8 +25,18 @@ Route::get([
     'login' => 'red_pack/index/login',
     'delete/:id' => 'red_pack/index/delete',
     'update/:id' => 'red_pack/index/update',
-    'list_news' => 'admin/list_news/index',
-    'list_news_get_data' => 'admin/list_news/getData',
+    'list_news' => 'admin/Info/news',
+    'list_news_get_data' => 'admin/Info/getData',
+    'info' => 'admin/Info/index',
+    'admin_login' => 'admin/Login/index',
+    'admin' => 'admin/Index/index',
+    'system' => 'admin/System/index',
+    'class' => 'admin/NjClass/index',
+    'template' => 'admin/Template/index',
+    'user_manage' => 'admin/UserManage/index',
+    'plug_in' => 'admin/PlugIn/index',
+    'shopping_mall' => 'admin/ShoppingMall/index',
+    'other' => 'admin/Other/index',
 ]);
 
 Route::post([
@@ -35,6 +45,7 @@ Route::post([
     'login' => 'red_pack/index/login',
     'delete' => 'red_pack/index/delete',
     'update' => 'red_pack/index/update',
+    'admin_login' => 'admin/login/index',
 ]);
 
 

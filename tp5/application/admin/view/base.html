@@ -1,10 +1,9 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:70:"D:\php-workspace\MyCms/tp5/application/admin\view\list_news\index.html";i:1577245759;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577254456;s:61:"D:\php-workspace\MyCms\tp5\application\admin\view\left_2.html";i:1577248019;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>柠吉CMS</title>
+    <title>{block name="title"}柠吉CMS{/block}</title>
     <link rel="stylesheet" href="/statics/layui/css/layui.css">
     <style>
         #nav-switch {
@@ -67,29 +66,14 @@
     <div id="main-nav" data-switch="1" class="layui-side layui-bg-black">
         <div class="layui-side-scroll">
             <ul class="layui-nav layui-nav-tree" lay-filter="test">
-                <li class="layui-nav-item"><a href="/index.php/list_news">信息管理</a></li>
-<li class="layui-nav-item"><a href="/index.php/info">栏目列表</a></li>
+                {block name="nav"}{/block}
             </ul>
         </div>
     </div>
 
-    
-<div id="main-content" class="layui-body" style="bottom:0;">
-
-
-    <div class="layui-row layui-col-space10" style="padding: 10px;">
-
-
-        <div class="layui-col-md6">
-            <div id="test1" style="border: 1px solid #e6e6e6; padding: 10px 10px 15px; overflow: auto;"></div>
-        </div>
-        <div class="layui-col-md6">
-            <div style="border: 1px solid #e6e6e6; padding: 10px;">请选择栏目节点</div>
-        </div>
-    </div>
-
-</div>
-
+    {block name="content"}
+    <div id="main-content" class="layui-body layui-bg-gray" style="bottom:0;">No content loading</div>
+    {/block}
 
 </div>
 
@@ -116,38 +100,6 @@
         })
     });
 </script>
-
-<script>
-    layui.use('tree', function () {
-        var tree = layui.tree, layer = layui.layer;
-        //渲染
-        var inst1 = tree.render({
-            elem: '#test1'  //绑定元素
-            , data: [{
-                title: '江西' //一级菜单
-                , children: [{
-                    title: '南昌' //二级菜单
-                    , children: [{
-                        title: '高新区' //三级菜单
-
-                    }]
-                }]
-            }, {
-                title: '陕西' //一级菜单
-                , children: [{
-                    title: '西安' //二级菜单
-                }]
-            }]
-            , click: function (obj) {
-                layer.msg(JSON.stringify(obj.data)); //得到当前点击的节点数据
-                // layer.msg(JSON.stringify(obj.state)); //得到当前节点的展开状态：open、close、normal
-                // layer.msg(JSON.stringify(obj.elem)); //得到当前节点元素
-                // layer.msg(JSON.stringify(obj.data.children)); //当前节点下是否有子节点
-            }
-        });
-    });
-</script>
-
-
+{block name="jsScript"}{/block}
 </body>
 </html>

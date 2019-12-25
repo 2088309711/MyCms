@@ -17,9 +17,9 @@
  * @param $time
  * @return false|string
  */
-function time_to_str($time)
+function time_to_str($time, $long = true)
 {
-    return date("Y-m-d", $time);
+    return date($long ? "Y-m-d H:i:s" : "Y-m-d", $time);
 }
 
 

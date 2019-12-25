@@ -11,14 +11,19 @@ namespace app\admin\controller;
 
 use app\admin\model\Enewsclass;
 use app\admin\model\Enewstable;
+use think\Cache;
 use think\Controller;
 use think\Db;
 
-class ListNews extends Controller
+class Info extends Controller
 {
 
-
     public function index()
+    {
+        return $this->fetch();
+    }
+
+    public function news()
     {
         return $this->fetch();
     }
@@ -30,18 +35,19 @@ class ListNews extends Controller
 //        取得数据表
         $table = Enewstable::all();
 
-        $xinxi = Db::name('ecms_' . $table[0]['tbname'])->order('id desc')->limit(0, 30)->select();
+        $info = Db::name('ecms_' . $table[0]['tbname'])->order('id desc')->limit(0, 30)->select();
 
-//        console_log();
 
-//        $classList = Enewsclass::all();
-//        console_log($classList);
+        foreach ($info as $key => $item) {
+            $info[$key]['newstime'] = time_to_str($item['newstime']);
+        }
+
 
         $result = [
             "code" => 0,
             "msg" => "",
-            "count" => count($xinxi),
-            "data" => $xinxi
+            "count" => Db::name('ecms_' . $table[0]['tbname'])->count(),
+            "data" => $info
         ];
 
         return $result;
