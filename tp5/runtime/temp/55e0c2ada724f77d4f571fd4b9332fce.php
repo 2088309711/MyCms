@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:66:"D:\php-workspace\MyCms/tp5/application/admin\view\other\index.html";i:1577255314;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577255049;s:67:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_nj_class.html";i:1577249756;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:66:"D:\php-workspace\MyCms/tp5/application/admin\view\other\index.html";i:1577257418;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577260328;s:64:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_other.html";i:1577259520;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -56,7 +56,6 @@
                     贤心
                 </a>
                 <dl class="layui-nav-child">
-                    <dd><a href="">基本资料</a></dd>
                     <dd><a href="">安全设置</a></dd>
                 </dl>
             </li>
@@ -68,30 +67,12 @@
         <div class="layui-side-scroll">
             <ul class="layui-nav layui-nav-tree" lay-filter="test">
                 <li class="layui-nav-item">
-    <a class="" href="javascript:;">系统设置</a>
+    <a href="javascript:;"> 新闻模型相关 </a>
     <dl class="layui-nav-child">
-
-
-        <dd><a href="../../SetEnews.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">系统参数设置</a>
-        </dd>
-        <dd><a href="../../pub/SetRewrite.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">伪静态参数设置</a>
-        </dd>
-        <dd><a href="../../pub/SetPageCache.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">动态页缓存设置</a>
-        </dd>
-        <dd><a href="../../pub/SetDigg.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">DIGG顶设置</a></dd>
-
-
-        <dd><a href="../../pub/ListPubVar.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">扩展变量</a></dd>
-
-
-        <dd><a href="../../pub/SetSafe.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">安全参数配置</a></dd>
-
-
-        <dd><a href="../../pub/SetFirewall.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">网站防火墙</a>
-        </dd>
+        <dd><a href=""> 管理信息来源 </a></dd>
+        <dd><a href=""> 管理作者 </a></dd>
+        <dd><a href=""> 管理内容关键字 </a></dd>
+        <dd><a href=""> 管理过滤字符 </a></dd>
 
 
     </dl>
@@ -99,22 +80,13 @@
 
 
 <li class="layui-nav-item">
-    <a class="" href="javascript:;">数据更新</a>
+    <a href="javascript:;"> 下载模型相关 </a>
     <dl class="layui-nav-child">
-
-
-        <dd><a href="../../ReHtml/ChangeData.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">数据更新中心</a></dd>
-        <dd><a href="../../ReHtml/ReInfoUrl.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">更新信息页地址</a></dd>
-        <dd><a href="../../ReHtml/ChangePageCache.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">更新动态页缓存</a></dd>
-        <dd><a href="../../ReHtml/DoUpdateData.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">数据整理</a></dd>
-
-
-        <dd><a href="../../PostUrlData.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">远程发布</a>
-        </dd>
+        <dd><a href=""> 管理地址前缀 </a></dd>
+        <dd><a href=""> 删除下载记录 </a></dd>
+        <dd><a href=""> 管理错误报告 </a></dd>
+        <dd><a href=""> 批量替换地址权限 </a></dd>
+        <dd><a href=""> 播放器管理 </a></dd>
 
 
     </dl>
@@ -122,30 +94,11 @@
 
 
 <li class="layui-nav-item">
-    <a class="" href="javascript:;">数据表与系统模型</a>
+    <a href="javascript:;"> 在线支付 </a>
     <dl class="layui-nav-child">
-
-        <dd><a href="../../db/AddTable.php?enews=AddTable&ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >新建数据表</a></dd>
-        <dd><a href="../../db/ListTable.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理数据表</a></dd>
-    </dl>
-</li>
-
-
-<li class="layui-nav-item">
-    <a class="" href="javascript:;">计划任务</a>
-    <dl class="layui-nav-child">
-
-
-        <dd><a href="../../ListDo.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理刷新任务</a></dd>
-
-
-        <dd><a href="../../other/ListTask.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >管理计划任务</a></dd>
+        <dd><a href=""> 支付参数配置 </a></dd>
+        <dd><a href=""> 管理支付接口 </a></dd>
+        <dd><a href=""> 管理支付记录 </a></dd>
 
 
     </dl>
@@ -153,70 +106,10 @@
 
 
 <li class="layui-nav-item">
-    <a class="" href="javascript:;">工作流</a>
+    <a href="javascript:;"> 图片信息管理 </a>
     <dl class="layui-nav-child">
-
-        <dd><a href="../../workflow/AddWf.php?enews=AddWorkflow&ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">增加工作流</a></dd>
-        <dd><a href="../../workflow/ListWf.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理工作流</a></dd>
-
-
-    </dl>
-</li>
-
-
-<li class="layui-nav-item">
-    <a class="" href="javascript:;">优化方案</a>
-    <dl class="layui-nav-child">
-
-        <dd><a href="../../db/ListYh.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理优化方案</a></dd>
-
-    </dl>
-</li>
-
-
-<li class="layui-nav-item">
-    <a class="" href="javascript:;">网站多访问端</a>
-    <dl class="layui-nav-child">
-
-        <dd><a href="../../moreport/ListMoreport.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >管理网站访问端</a></dd>
-
-    </dl>
-</li>
-
-
-<li class="layui-nav-item">
-    <a class="" href="javascript:;">扩展菜单</a>
-    <dl class="layui-nav-child">
-
-        <dd><a href="../../other/MenuClass.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理菜单</a></dd>
-
-    </dl>
-</li>
-
-
-<li class="layui-nav-item">
-    <a class="" href="javascript:;">备份与恢复数据</a>
-    <dl class="layui-nav-child">
-
-
-        <dd><a href="../../ebak/ChangeDb.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >备份数据</a></dd>
-        <dd><a href="../../ebak/ReData.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >恢复数据</a></dd>
-        <dd><a href="../../ebak/ChangePath.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >管理备份目录</a></dd>
-
-
-        <dd><a href="../../db/DoSql.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >执行SQL语句</a></dd>
+        <dd><a href=""> 管理图片信息分类 </a></dd>
+        <dd><a href=""> 管理图片信息 </a></dd>
 
 
     </dl>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:72:"D:\php-workspace\MyCms/tp5/application/admin\view\user_manage\index.html";i:1577255286;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577255049;s:67:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_nj_class.html";i:1577249756;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:72:"D:\php-workspace\MyCms/tp5/application/admin\view\user_manage\index.html";i:1577257406;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577255049;s:70:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_user_manage.html";i:1577258541;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -68,159 +68,64 @@
         <div class="layui-side-scroll">
             <ul class="layui-nav layui-nav-tree" lay-filter="test">
                 <li class="layui-nav-item">
-    <a class="" href="javascript:;">系统设置</a>
+    <a href="javascript:;"> 用户管理 </a>
     <dl class="layui-nav-child">
-
-
-        <dd><a href="../../SetEnews.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">系统参数设置</a>
-        </dd>
-        <dd><a href="../../pub/SetRewrite.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">伪静态参数设置</a>
-        </dd>
-        <dd><a href="../../pub/SetPageCache.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">动态页缓存设置</a>
-        </dd>
-        <dd><a href="../../pub/SetDigg.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">DIGG顶设置</a></dd>
-
-
-        <dd><a href="../../pub/ListPubVar.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">扩展变量</a></dd>
-
-
-        <dd><a href="../../pub/SetSafe.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">安全参数配置</a></dd>
-
-
-        <dd><a href="../../pub/SetFirewall.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">网站防火墙</a>
-        </dd>
-
-
+        <dd><a href=""> 修改个人资料 </a></dd>
+        <dd><a href=""> 管理用户组 </a></dd>
+        <dd><a href=""> 管理部门 </a></dd>
+        <dd><a href=""> 管理用户 </a></dd>
+        <dd><a href=""> 管理登陆日志 </a></dd>
+        <dd><a href=""> 管理操作日志 </a></dd>
+        <dd><a href=""> 管理后台风格 </a></dd>
     </dl>
 </li>
 
 
 <li class="layui-nav-item">
-    <a class="" href="javascript:;">数据更新</a>
+    <a href="javascript:;"> 会员管理 </a>
     <dl class="layui-nav-child">
-
-
-        <dd><a href="../../ReHtml/ChangeData.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">数据更新中心</a></dd>
-        <dd><a href="../../ReHtml/ReInfoUrl.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">更新信息页地址</a></dd>
-        <dd><a href="../../ReHtml/ChangePageCache.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">更新动态页缓存</a></dd>
-        <dd><a href="../../ReHtml/DoUpdateData.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">数据整理</a></dd>
-
-
-        <dd><a href="../../PostUrlData.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">远程发布</a>
-        </dd>
-
-
+        <dd><a href=""> 管理会员 </a></dd>
+        <dd><a href=""> 管理会员(详细) </a></dd>
+        <dd><a href=""> 批量清理会员 </a></dd>
+        <dd><a href=""> 会员组 </a></dd>
+        <dd><a href=""> 会员内部组 </a></dd>
+        <dd><a href=""> 会员访问组 </a></dd>
+        <dd><a href=""> 会员管理组 </a></dd>
+        <dd><a href=""> 管理会员字段 </a></dd>
+        <dd><a href=""> 管理会员表单 </a></dd>
     </dl>
 </li>
 
 
 <li class="layui-nav-item">
-    <a class="" href="javascript:;">数据表与系统模型</a>
+    <a href="javascript:;"> 会员空间管理 </a>
     <dl class="layui-nav-child">
+        <dd><a href=""> 管理空间模板 </a></dd>
+        <dd><a href=""> 管理空间留言 </a></dd>
+        <dd><a href=""> 管理空间反馈 </a></dd>
 
-        <dd><a href="../../db/AddTable.php?enews=AddTable&ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >新建数据表</a></dd>
-        <dd><a href="../../db/ListTable.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理数据表</a></dd>
+
     </dl>
 </li>
+
+
+<li class="layui-nav-item"><a href=""> 管理外部登录接口 </a></li>
 
 
 <li class="layui-nav-item">
-    <a class="" href="javascript:;">计划任务</a>
+    <a href="javascript:;"> 其他功能 </a>
     <dl class="layui-nav-child">
-
-
-        <dd><a href="../../ListDo.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理刷新任务</a></dd>
-
-
-        <dd><a href="../../other/ListTask.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >管理计划任务</a></dd>
-
+        <dd><a href=""> 管理充值类型 </a></dd>
+        <dd><a href=""> 管理点卡 </a></dd>
+        <dd><a href=""> 批量赠送点数 </a></dd>
+        <dd><a href=""> 批量发送邮件 </a></dd>
+        <dd><a href=""> 批量发送短消息 </a></dd>
+        <dd><a href=""> 批量删除短消息 </a></dd>
 
     </dl>
 </li>
 
 
-<li class="layui-nav-item">
-    <a class="" href="javascript:;">工作流</a>
-    <dl class="layui-nav-child">
-
-        <dd><a href="../../workflow/AddWf.php?enews=AddWorkflow&ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">增加工作流</a></dd>
-        <dd><a href="../../workflow/ListWf.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理工作流</a></dd>
-
-
-    </dl>
-</li>
-
-
-<li class="layui-nav-item">
-    <a class="" href="javascript:;">优化方案</a>
-    <dl class="layui-nav-child">
-
-        <dd><a href="../../db/ListYh.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理优化方案</a></dd>
-
-    </dl>
-</li>
-
-
-<li class="layui-nav-item">
-    <a class="" href="javascript:;">网站多访问端</a>
-    <dl class="layui-nav-child">
-
-        <dd><a href="../../moreport/ListMoreport.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >管理网站访问端</a></dd>
-
-    </dl>
-</li>
-
-
-<li class="layui-nav-item">
-    <a class="" href="javascript:;">扩展菜单</a>
-    <dl class="layui-nav-child">
-
-        <dd><a href="../../other/MenuClass.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理菜单</a></dd>
-
-    </dl>
-</li>
-
-
-<li class="layui-nav-item">
-    <a class="" href="javascript:;">备份与恢复数据</a>
-    <dl class="layui-nav-child">
-
-
-        <dd><a href="../../ebak/ChangeDb.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >备份数据</a></dd>
-        <dd><a href="../../ebak/ReData.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >恢复数据</a></dd>
-        <dd><a href="../../ebak/ChangePath.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >管理备份目录</a></dd>
-
-
-        <dd><a href="../../db/DoSql.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >执行SQL语句</a></dd>
-
-
-    </dl>
-</li>
 
 
             </ul>

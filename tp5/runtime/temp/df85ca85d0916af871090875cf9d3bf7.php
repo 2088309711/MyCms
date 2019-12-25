@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:69:"D:\php-workspace\MyCms/tp5/application/admin\view\nj_class\index.html";i:1577255143;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577255049;s:67:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_nj_class.html";i:1577249756;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:69:"D:\php-workspace\MyCms/tp5/application/admin\view\nj_class\index.html";i:1577255143;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577255049;s:67:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_nj_class.html";i:1577257005;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -68,159 +68,165 @@
         <div class="layui-side-scroll">
             <ul class="layui-nav layui-nav-tree" lay-filter="test">
                 <li class="layui-nav-item">
-    <a class="" href="javascript:;">系统设置</a>
+    <a class="" href="javascript:;">信息相关管理</a>
     <dl class="layui-nav-child">
+        <dd><a href="">管理信息</a></dd>
+        <dd><a href="">审核信息</a></dd>
+        <dd><a href="">签发信息</a></dd>
+        <dd><a href="">管理评论</a></dd>
+        <dd><a href="">更新碎片</a></dd>
+        <dd><a href="">更新专题</a></dd>
+        <dd><a href="">数据统计</a></dd>
+        <dd><a href="">排行统计</a></dd>
+    </dl>
+</li>
+<li class="layui-nav-item">
+    <a href="javascript:;">栏目管理</a>
+    <dl class="layui-nav-child">
+        <dd><a href="">管理栏目</a></dd>
+        <dd><a href="">管理栏目(分页)</a></dd>
+        <dd><a href="">栏目自定义字段</a></dd>
+        <dd><a href="">批量设置栏目属性</a></dd>
+    </dl>
+</li>
 
 
-        <dd><a href="../../SetEnews.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">系统参数设置</a>
-        </dd>
-        <dd><a href="../../pub/SetRewrite.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">伪静态参数设置</a>
-        </dd>
-        <dd><a href="../../pub/SetPageCache.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">动态页缓存设置</a>
-        </dd>
-        <dd><a href="../../pub/SetDigg.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">DIGG顶设置</a></dd>
-
-
-        <dd><a href="../../pub/ListPubVar.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">扩展变量</a></dd>
-
-
-        <dd><a href="../../pub/SetSafe.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">安全参数配置</a></dd>
-
-
-        <dd><a href="../../pub/SetFirewall.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">网站防火墙</a>
-        </dd>
-
+<li class="layui-nav-item">
+    <a href="javascript:;">专题管理</a>
+    <dl class="layui-nav-child">
+        <dd><a href="">管理专题分类</a></dd>
+        <dd><a href="">管理专题</a></dd>
+        <dd><a href="">专题自定义字段</a></dd>
 
     </dl>
 </li>
 
 
 <li class="layui-nav-item">
-    <a class="" href="javascript:;">数据更新</a>
+    <a href="javascript:;">标题分类管理</a>
     <dl class="layui-nav-child">
+        <dd><a href="">增加标题分类</a></dd>
+        <dd><a href="">管理标题分类</a></dd>
+    </dl>
+</li>
 
 
-        <dd><a href="../../ReHtml/ChangeData.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">数据更新中心</a></dd>
-        <dd><a href="../../ReHtml/ReInfoUrl.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">更新信息页地址</a></dd>
-        <dd><a href="../../ReHtml/ChangePageCache.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">更新动态页缓存</a></dd>
-        <dd><a href="../../ReHtml/DoUpdateData.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">数据整理</a></dd>
+<li class="layui-nav-item">
+    <a href="javascript:;">碎片管理</a>
+    <dl class="layui-nav-child">
+        <dd><a href="">管理碎片分类</a></dd>
+        <dd><a href="">管理碎片</a></dd>
+    </dl>
+</li>
 
 
-        <dd><a href="../../PostUrlData.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main">远程发布</a>
-        </dd>
-
+<li class="layui-nav-item">
+    <a href="javascript:;">自定义页面</a>
+    <dl class="layui-nav-child">
+        <dd><a href="">管理自定义页面分类</a></dd>
+        <dd><a href="">增加自定义页面</a></dd>
+        <dd><a href="">管理自定义页面</a></dd>
 
     </dl>
 </li>
 
 
 <li class="layui-nav-item">
-    <a class="" href="javascript:;">数据表与系统模型</a>
+    <a href="javascript:;">自定义列表</a>
     <dl class="layui-nav-child">
-
-        <dd><a href="../../db/AddTable.php?enews=AddTable&ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >新建数据表</a></dd>
-        <dd><a href="../../db/ListTable.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理数据表</a></dd>
+        <dd><a href="">管理自定义列表分类</a></dd>
+        <dd><a href="">增加自定义列表</a></dd>
+        <dd><a href="">管理自定义列表</a></dd>
     </dl>
 </li>
 
 
 <li class="layui-nav-item">
-    <a class="" href="javascript:;">计划任务</a>
+    <a href="javascript:;">自定义JS</a>
     <dl class="layui-nav-child">
-
-
-        <dd><a href="../../ListDo.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理刷新任务</a></dd>
-
-
-        <dd><a href="../../other/ListTask.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >管理计划任务</a></dd>
-
+        <dd><a href="">管理自定义JS分类</a></dd>
+        <dd><a href="">增加自定义JS</a></dd>
+        <dd><a href="">管理自定义JS</a></dd>
 
     </dl>
 </li>
 
 
 <li class="layui-nav-item">
-    <a class="" href="javascript:;">工作流</a>
+    <a href="javascript:;"> TAGS管理 </a>
     <dl class="layui-nav-child">
-
-        <dd><a href="../../workflow/AddWf.php?enews=AddWorkflow&ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main">增加工作流</a></dd>
-        <dd><a href="../../workflow/ListWf.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理工作流</a></dd>
-
+        <dd><a href=""> 设置TAGS参数 </a></dd>
+        <dd><a href=""> 管理TAGS分类 </a></dd>
+        <dd><a href=""> 管理TAGS </a></dd>
 
     </dl>
 </li>
 
 
 <li class="layui-nav-item">
-    <a class="" href="javascript:;">优化方案</a>
+    <a href="javascript:;"> 头条/推荐级别 </a>
     <dl class="layui-nav-child">
+        <dd><a href=""> 管理头条级别 </a></dd>
+        <dd><a href=""> 管理推荐级别 </a></dd>
 
-        <dd><a href="../../db/ListYh.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理优化方案</a></dd>
+    </dl>
+</li>
+
+
+<li class="layui-nav-item"><a href="">管理附件</a></li>
+
+
+<li class="layui-nav-item">
+    <a href="javascript:;"> 采集管理 </a>
+    <dl class="layui-nav-child">
+        <dd><a href=""> 增加采集节点 </a></dd>
+        <dd><a href=""> 管理采集节点 </a></dd>
+        <dd><a href=""> 管理采集节点(分页) </a></dd>
 
     </dl>
 </li>
 
 
 <li class="layui-nav-item">
-    <a class="" href="javascript:;">网站多访问端</a>
+    <a href="javascript:;"> 全站全文搜索 </a>
     <dl class="layui-nav-child">
-
-        <dd><a href="../../moreport/ListMoreport.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >管理网站访问端</a></dd>
+        <dd><a href=""> 全站搜索设置 </a></dd>
+        <dd><a href=""> 管理搜索数据源 </a></dd>
+        <dd><a href=""> 清理搜索数据 </a></dd>
 
     </dl>
 </li>
 
 
 <li class="layui-nav-item">
-    <a class="" href="javascript:;">扩展菜单</a>
+    <a href="javascript:;"> WAP管理 </a>
     <dl class="layui-nav-child">
-
-        <dd><a href="../../other/MenuClass.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >管理菜单</a></dd>
+        <dd><a href=""> WAP设置 </a></dd>
+        <dd><a href=""> 管理WAP模板 </a></dd>
 
     </dl>
 </li>
 
 
 <li class="layui-nav-item">
-    <a class="" href="javascript:;">备份与恢复数据</a>
+    <a href="javascript:;"> 其他相关 </a>
     <dl class="layui-nav-child">
-
-
-        <dd><a href="../../ebak/ChangeDb.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >备份数据</a></dd>
-        <dd><a href="../../ebak/ReData.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >恢复数据</a></dd>
-        <dd><a href="../../ebak/ChangePath.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu"
-               target="main"
-        >管理备份目录</a></dd>
-
-
-        <dd><a href="../../db/DoSql.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu" target="main"
-        >执行SQL语句</a></dd>
-
+        <dd><a href=""> 统计信息数据 </a></dd>
+        <dd><a href=""> 用户发布统计 </a></dd>
+        <dd><a href=""> 管理搜索关键字 </a></dd>
+        <dd><a href=""> 批量替换字段值 </a></dd>
+        <dd><a href=""> 批量转移信息 </a></dd>
+        <dd><a href=""> 信息批量归档 </a></dd>
+        <dd><a href=""> 批量删除信息 </a></dd>
+        <dd><a href=""> 管理预设投票 </a></dd>
 
     </dl>
 </li>
+
+
+
+
+
 
 
             </ul>
