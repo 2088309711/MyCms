@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:68:"D:\php-workspace\MyCms/tp5/application/admin\view\plug_in\index.html";i:1577257406;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577260328;s:66:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_plug_in.html";i:1577258903;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:68:"D:\php-workspace\MyCms/tp5/application/admin\view\plug_in\index.html";i:1577257406;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577260328;s:66:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_plug_in.html";i:1577281773;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -69,8 +69,8 @@
                 <li class="layui-nav-item">
     <a href="javascript:;"> 广告系统 </a>
     <dl class="layui-nav-child">
-        <dd><a href=""> 管理广告分类 </a></dd>
-        <dd><a href=""> 管理广告 </a></dd>
+        <dd><a href="/index.php/manage_advertising_type"> 管理广告分类 </a></dd>
+        <dd><a href="/index.php/manage_advertising"> 管理广告 </a></dd>
 
 
     </dl>
@@ -80,8 +80,8 @@
 <li class="layui-nav-item">
     <a href="javascript:;"> 投票系统 </a>
     <dl class="layui-nav-child">
-        <dd><a href=""> 增加投票 </a></dd>
-        <dd><a href=""> 管理投票 </a></dd>
+        <dd><a href="/index.php/add_voting"> 增加投票 </a></dd>
+        <dd><a href="/index.php/manage_voting"> 管理投票 </a></dd>
 
 
     </dl>
@@ -91,8 +91,8 @@
 <li class="layui-nav-item">
     <a href="javascript:;"> 友情链接管理 </a>
     <dl class="layui-nav-child">
-        <dd><a href=""> 管理友情链接分类 </a></dd>
-        <dd><a href=""> 管理友情链接 </a></dd>
+        <dd><a href="/index.php/manage_link_type"> 管理友情链接分类 </a></dd>
+        <dd><a href="/index.php/manage_link"> 管理友情链接 </a></dd>
 
 
     </dl>
@@ -102,9 +102,9 @@
 <li class="layui-nav-item">
     <a href="javascript:;"> 留言板管理 </a>
     <dl class="layui-nav-child">
-        <dd><a href=""> 管理留言分类 </a></dd>
-        <dd><a href=""> 管理留言 </a></dd>
-        <dd><a href=""> 批量删除留言 </a></dd>
+        <dd><a href="/index.php/manage_message_type"> 管理留言分类 </a></dd>
+        <dd><a href="/index.php/manage_message"> 管理留言 </a></dd>
+        <dd><a href="/index.php/bulk_delete_message"> 批量删除留言 </a></dd>
 
 
     </dl>
@@ -114,16 +114,16 @@
 <li class="layui-nav-item">
     <a href="javascript:;"> 信息反馈管理 </a>
     <dl class="layui-nav-child">
-        <dd><a href=""> 管理反馈分类 </a></dd>
-        <dd><a href=""> 管理反馈字段 </a></dd>
-        <dd><a href=""> 管理信息反馈 </a></dd>
+        <dd><a href="/index.php/manage_feedback_type"> 管理反馈分类 </a></dd>
+        <dd><a href="/index.php/manage_feedback_field"> 管理反馈字段 </a></dd>
+        <dd><a href="/index.php/manage_info_feedback"> 管理信息反馈 </a></dd>
 
 
     </dl>
 </li>
 
 
-<li class="layui-nav-item"><a href=""> 管理防采集随机字符 </a></li>
+<li class="layui-nav-item"><a href="/index.php/manage_anti_collection_rand_char"> 管理防采集随机字符 </a></li>
 
 
             </ul>

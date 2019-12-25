@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:66:"D:\php-workspace\MyCms/tp5/application/admin\view\other\index.html";i:1577257418;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577260328;s:64:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_other.html";i:1577259520;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:66:"D:\php-workspace\MyCms/tp5/application/admin\view\other\index.html";i:1577257418;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577260328;s:64:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_other.html";i:1577283319;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -69,11 +69,10 @@
                 <li class="layui-nav-item">
     <a href="javascript:;"> 新闻模型相关 </a>
     <dl class="layui-nav-child">
-        <dd><a href=""> 管理信息来源 </a></dd>
-        <dd><a href=""> 管理作者 </a></dd>
-        <dd><a href=""> 管理内容关键字 </a></dd>
-        <dd><a href=""> 管理过滤字符 </a></dd>
-
+        <dd><a href="/index.php/source_manage_info"> 管理信息来源 </a></dd>
+        <dd><a href="/index.php/manage_author"> 管理作者 </a></dd>
+        <dd><a href="/index.php/manage_content_keywords"> 管理内容关键字 </a></dd>
+        <dd><a href="/index.php/manage_filter_char"> 管理过滤字符 </a></dd>
 
     </dl>
 </li>
@@ -82,11 +81,11 @@
 <li class="layui-nav-item">
     <a href="javascript:;"> 下载模型相关 </a>
     <dl class="layui-nav-child">
-        <dd><a href=""> 管理地址前缀 </a></dd>
-        <dd><a href=""> 删除下载记录 </a></dd>
-        <dd><a href=""> 管理错误报告 </a></dd>
-        <dd><a href=""> 批量替换地址权限 </a></dd>
-        <dd><a href=""> 播放器管理 </a></dd>
+        <dd><a href="/index.php/manage_addres_prefixe"> 管理地址前缀 </a></dd>
+        <dd><a href="/index.php/delete_download_record"> 删除下载记录 </a></dd>
+        <dd><a href="/index.php/manage_error_reporting"> 管理错误报告 </a></dd>
+        <dd><a href="/index.php/batch_replace_addres_permission"> 批量替换地址权限 </a></dd>
+        <dd><a href="/index.php/player_manage"> 播放器管理 </a></dd>
 
 
     </dl>
@@ -96,9 +95,9 @@
 <li class="layui-nav-item">
     <a href="javascript:;"> 在线支付 </a>
     <dl class="layui-nav-child">
-        <dd><a href=""> 支付参数配置 </a></dd>
-        <dd><a href=""> 管理支付接口 </a></dd>
-        <dd><a href=""> 管理支付记录 </a></dd>
+        <dd><a href="/index.php/payment_param_config"> 支付参数配置 </a></dd>
+        <dd><a href="/index.php/manage_payment_interface"> 管理支付接口 </a></dd>
+        <dd><a href="/index.php/manage_payment_record"> 管理支付记录 </a></dd>
 
 
     </dl>
@@ -108,8 +107,8 @@
 <li class="layui-nav-item">
     <a href="javascript:;"> 图片信息管理 </a>
     <dl class="layui-nav-child">
-        <dd><a href=""> 管理图片信息分类 </a></dd>
-        <dd><a href=""> 管理图片信息 </a></dd>
+        <dd><a href="/index.php/manage_picture_info_type"> 管理图片信息分类 </a></dd>
+        <dd><a href="/index.php/manage_picture_info"> 管理图片信息 </a></dd>
 
 
     </dl>

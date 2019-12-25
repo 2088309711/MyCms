@@ -82,3 +82,15 @@
 [ 2019-12-25T18:53:17+08:00 ] 127.0.0.1 GET mycms.com/index.php/manage_annex
 [运行时间：0.027570s] [吞吐率：36.27req/s] [内存消耗：1,217.36kb] [文件加载：34]
 [ error ] [0]模板文件不存在:D:\php-workspace\MyCms/tp5/application/admin\view\nj_class\manage_annex.html[D:\php-workspace\MyCms\tp5\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2019-12-25T21:00:48+08:00 ] 127.0.0.1 GET mycms.com/index.php/manage_index_scheme
+[运行时间：0.029188s] [吞吐率：34.26req/s] [内存消耗：1,270.91kb] [文件加载：34]
+[ error ] [0]模板文件不存在:D:\php-workspace\MyCms/tp5/application/admin\view\template\manage_tndex_scheme.html[D:\php-workspace\MyCms\tp5\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2019-12-25T21:00:50+08:00 ] 127.0.0.1 GET mycms.com/index.php/manage_index_scheme
+[运行时间：0.025562s] [吞吐率：39.12req/s] [内存消耗：1,270.98kb] [文件加载：34]
+[ error ] [0]模板文件不存在:D:\php-workspace\MyCms/tp5/application/admin\view\template\manage_tndex_scheme.html[D:\php-workspace\MyCms\tp5\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2019-12-25T21:00:51+08:00 ] 127.0.0.1 GET mycms.com/index.php/manage_index_scheme
+[运行时间：0.025175s] [吞吐率：39.72req/s] [内存消耗：1,270.98kb] [文件加载：34]
+[ error ] [0]模板文件不存在:D:\php-workspace\MyCms/tp5/application/admin\view\template\manage_tndex_scheme.html[D:\php-workspace\MyCms\tp5\thinkphp\library\think\view\driver\Think.php:82]

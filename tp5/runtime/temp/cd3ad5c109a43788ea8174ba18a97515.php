@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:74:"D:\php-workspace\MyCms/tp5/application/admin\view\shopping_mall\index.html";i:1577257418;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577260328;s:72:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_shopping_mall.html";i:1577259278;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:74:"D:\php-workspace\MyCms/tp5/application/admin\view\shopping_mall\index.html";i:1577257418;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577260328;s:72:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_shopping_mall.html";i:1577282550;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -69,32 +69,32 @@
                 <li class="layui-nav-item">
     <a href="javascript:;"> 管理订单 </a>
     <dl class="layui-nav-child">
-        <dd><a href=""> 所有订单 </a></dd>
-        <dd><a href=""> 未发货订单 </a></dd>
-        <dd><a href=""> 备货中的订单 </a></dd>
-        <dd><a href=""> 已发货的订单 </a></dd>
-        <dd><a href=""> 退货的订单 </a></dd>
+        <dd><a href="/index.php/all_order"> 所有订单 </a></dd>
+        <dd><a href="/index.php/undelivered_order"> 未发货订单 </a></dd>
+        <dd><a href="/index.php/order_in_stock"> 备货中的订单 </a></dd>
+        <dd><a href="/index.php/order_shipped"> 已发货的订单 </a></dd>
+        <dd><a href="/index.php/return_order"> 退货的订单 </a></dd>
 
 
     </dl>
 </li>
 
 
-<li class="layui-nav-item"><a href=""> 优惠码 </a></li>
+<li class="layui-nav-item"><a href="/index.php/discount_code"> 优惠码 </a></li>
 
 
 <li class="layui-nav-item">
     <a href="javascript:;"> 支付与配送 </a>
     <dl class="layui-nav-child">
-        <dd><a href=""> 管理支付方式 </a></dd>
-        <dd><a href=""> 管理配送方式 </a></dd>
+        <dd><a href="/index.php/manage_payment_method"> 管理支付方式 </a></dd>
+        <dd><a href="/index.php/manage_delivery_method"> 管理配送方式 </a></dd>
 
 
     </dl>
 </li>
 
 
-<li class="layui-nav-item"><a href=""> 商城参数设置 </a></li>
+<li class="layui-nav-item"><a href="/index.php/mall_param_set"> 商城参数设置 </a></li>
 
             </ul>
         </div>
