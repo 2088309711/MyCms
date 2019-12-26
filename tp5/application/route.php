@@ -28,6 +28,7 @@ Route::get([
     'list_news' => 'admin/Info/news',
     'list_news_get_data' => 'admin/Info/getData',
     'info' => 'admin/Info/index',
+
     'admin_login' => 'admin/Login/index',
     'admin' => 'admin/Index/index',
 

@@ -3,16 +3,29 @@
   <component name="ChangeListManager">
     <list default="true" id="abe43063-c223-415d-892e-6b5d477b9522" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e/data/adminlogin/user1_67ef79597c691289c066ba554f4cdd15.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e/data/adminlogin/user1_fda0e0c0c4b1212dfbcb233eec408c50.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tp5/application/admin/view/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/application/admin/view/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/application/admin/view/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/application/admin/view/index/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp5/application/admin/view/system/system_param_set.html" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/application/admin/view/system/system_param_set.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/application/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/application/route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/08a11a09f23de4f02d4300089aa17a1b.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/08a11a09f23de4f02d4300089aa17a1b.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/09b1eebd15002e3bea6818a427f3f815.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/09b1eebd15002e3bea6818a427f3f815.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/144d9c9cc4b7b76ed02979cb122c18e9.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/144d9c9cc4b7b76ed02979cb122c18e9.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/166627d074061986a4cfbe6317fe29c1.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/166627d074061986a4cfbe6317fe29c1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/1c3ffb754a37933eaaac4259c33626c8.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/1c3ffb754a37933eaaac4259c33626c8.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/23c99f0cf97294591b808eb624d6aab9.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/23c99f0cf97294591b808eb624d6aab9.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/276055759e351d22b6928df7c0a6fe9b.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/276055759e351d22b6928df7c0a6fe9b.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/55e0c2ada724f77d4f571fd4b9332fce.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/55e0c2ada724f77d4f571fd4b9332fce.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/7d5b20a5c1ecf60f8779acc1c795b85d.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/7d5b20a5c1ecf60f8779acc1c795b85d.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/8565bfdff0eac164764089e25ef25c91.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/8565bfdff0eac164764089e25ef25c91.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/956ef3fce60b384ab7cfa09f78091c55.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/956ef3fce60b384ab7cfa09f78091c55.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/9adc73f06607935b8b1e28d5ac95c15b.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/9adc73f06607935b8b1e28d5ac95c15b.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/9b2ab671b2ec84822d70dc6a78455351.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/9b2ab671b2ec84822d70dc6a78455351.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/c12f4f762687244ab849c9cd25df4319.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/c12f4f762687244ab849c9cd25df4319.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/cd3ad5c109a43788ea8174ba18a97515.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/cd3ad5c109a43788ea8174ba18a97515.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/db8fffd1f13595413475bf4b6fb5d518.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/db8fffd1f13595413475bf4b6fb5d518.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/df85ca85d0916af871090875cf9d3bf7.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/df85ca85d0916af871090875cf9d3bf7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/f4d73c5b7f81b17ae96bb67e52386745.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/f4d73c5b7f81b17ae96bb67e52386745.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tp5/runtime/temp/f78be2228918996ba08c6450a721a434.php" beforeDir="false" afterPath="$PROJECT_DIR$/tp5/runtime/temp/f78be2228918996ba08c6450a721a434.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,16 +53,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="system_param_set.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="route.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tp5/application/route.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+              <folding>
+                <element signature="e#6#80#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="system_param_set.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/system/system_param_set.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="284" column="62" selection-start-line="284" selection-start-column="62" selection-end-line="284" selection-end-column="62" />
+            <state relative-caret-position="258">
+              <caret line="1196" lean-forward="true" selection-start-line="1196" selection-end-line="1196" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#25;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/user_manage/member_group.html" />
         <option value="$PROJECT_DIR$/tp5/application/admin/view/user_manage/member_internal_group.html" />
         <option value="$PROJECT_DIR$/tp5/application/admin/view/user_manage/member_manage_group.html" />
         <option value="$PROJECT_DIR$/tp5/application/admin/view/user_manage/member_visit_group.html" />
@@ -165,7 +199,6 @@
         <option value="$PROJECT_DIR$/tp5/application/admin/view/shopping_mall/undelivered_order.html" />
         <option value="$PROJECT_DIR$/tp5/application/admin/controller/ShoppingMall.php" />
         <option value="$PROJECT_DIR$/tp5/application/admin/view/nav_other.html" />
-        <option value="$PROJECT_DIR$/tp5/application/route.php" />
         <option value="$PROJECT_DIR$/tp5/application/admin/view/other/batch_replace_addres_permission.html" />
         <option value="$PROJECT_DIR$/tp5/application/admin/view/other/delete_download_record.html" />
         <option value="$PROJECT_DIR$/tp5/application/admin/view/other/manage_addres_prefixe.html" />
@@ -181,8 +214,10 @@
         <option value="$PROJECT_DIR$/tp5/application/admin/view/other/player_manage.html" />
         <option value="$PROJECT_DIR$/tp5/application/admin/view/other/source_manage_info.html" />
         <option value="$PROJECT_DIR$/tp5/application/admin/controller/Other.php" />
-        <option value="$PROJECT_DIR$/tp5/application/admin/view/base.html" />
+        <option value="$PROJECT_DIR$/tp5/application/route.php" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/index/index.html" />
         <option value="$PROJECT_DIR$/tp5/application/admin/view/system/system_param_set.html" />
+        <option value="$PROJECT_DIR$/tp5/application/admin/view/base.html" />
       </list>
     </option>
   </component>
@@ -208,6 +243,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -256,22 +292,12 @@
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="info" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="MyCms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyCms" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tp5" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="view" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="system" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="index" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,28 +350,28 @@
       <workItem from="1576912822811" duration="10559000" />
       <workItem from="1576929733040" duration="25000" />
       <workItem from="1577018119072" duration="14038000" />
-      <workItem from="1577111088795" duration="74497000" />
+      <workItem from="1577111088795" duration="74714000" />
+      <workItem from="1577370913324" duration="7987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144822000" />
+    <option name="totallyTimeSpent" value="153026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info content_ui="combo" id="Project" order="1" weight="0.23511904" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info id="Database" order="3" side_tool="true" weight="0.3296131" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.23511904" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info id="Database" order="3" side_tool="true" weight="0.3296131" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -354,6 +380,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,6 +402,17 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/system/system_param_set.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7952">
+          <caret line="284" column="62" selection-start-line="284" selection-start-column="62" selection-end-line="284" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nav_plug_in.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -571,9 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/nav_other.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -693,47 +728,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/info/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="447" column="8" lean-forward="true" selection-start-line="447" selection-start-column="8" selection-end-line="447" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tp5/application/route.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="234" column="3" lean-forward="true" selection-start-line="234" selection-start-column="3" selection-end-line="234" selection-end-column="3" />
+        <state relative-caret-position="391">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
           <folding>
             <element signature="e#6#80#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/runtime/temp/fd5de08a0133dd8053ebc446e4fbbaa9.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/info/news.html">
+    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/system/system_param_set.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="447" column="8" lean-forward="true" selection-start-line="447" selection-start-column="8" selection-end-line="447" selection-end-column="8" />
+        <state relative-caret-position="258">
+          <caret line="1196" lean-forward="true" selection-start-line="1196" selection-end-line="1196" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tp5/application/admin/view/system/system_param_set.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="284" column="62" selection-start-line="284" selection-start-column="62" selection-end-line="284" selection-end-column="62" />
+        <state relative-caret-position="250">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#25;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:66:"D:\php-workspace\MyCms/tp5/application/admin\view\index\index.html";i:1577184497;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577184846;s:61:"D:\php-workspace\MyCms\tp5\application\admin\view\left_2.html";i:1577181363;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:66:"D:\php-workspace\MyCms/tp5/application/admin\view\index\index.html";i:1577371332;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577380147;s:63:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_info.html";i:1577248019;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,42 +21,47 @@
             color: #bdbec0;
         }
     </style>
+
+    
+
 </head>
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
     <div class="layui-header">
-        <div class="layui-logo" style="width:140px;">柠吉CMS</div>
+        <a href="/index.php/admin" title="后台主页">
+            <div class="layui-logo" style="width:140px; color: #fff; font-weight: bold;">柠吉CMS</div>
+        </a>
         <div id="nav-switch">
             <i class="layui-icon layui-icon-shrink-right"></i>
         </div>
 
+
         <ul class="layui-nav layui-layout-left">
-            <li class="layui-nav-item"><a href="">
+            <li class="layui-nav-item"><a href="/index.php/system">
                 <i class="layui-icon layui-icon-engine"></i> 系统</a></li>
             <li class="layui-nav-item"><a href="/index.php/info">
                 <i class="layui-icon layui-icon-form"></i> 信息</a></li>
-            <li class="layui-nav-item"><a href="">
+            <li class="layui-nav-item"><a href="/index.php/class">
                 <i class="layui-icon layui-icon-tabs"></i> 栏目</a></li>
-            <li class="layui-nav-item"><a href="">
+            <li class="layui-nav-item"><a href="/index.php/template">
                 <i class="layui-icon layui-icon-template"></i> 模板</a></li>
-            <li class="layui-nav-item"><a href="">
+            <li class="layui-nav-item"><a href="/index.php/user_manage">
                 <i class="layui-icon layui-icon-user"></i> 用户</a></li>
-            <li class="layui-nav-item"><a href="">
+            <li class="layui-nav-item"><a href="/index.php/plug_in">
                 <i class="layui-icon layui-icon-component"></i> 插件</a></li>
-            <li class="layui-nav-item"><a href="">
+            <li class="layui-nav-item"><a href="/index.php/shopping_mall">
                 <i class="layui-icon layui-icon-cart"></i> 商城</a></li>
-            <li class="layui-nav-item"><a href="">
+            <li class="layui-nav-item"><a href="/index.php/other">
                 <i class="layui-icon layui-icon-app"></i> 其他</a></li>
         </ul>
         <ul class="layui-nav layui-layout-right">
             <li class="layui-nav-item">
                 <a href="javascript:;">
                     <i class="layui-icon layui-icon-username"></i>
-                    贤心
+                    用户名
                 </a>
                 <dl class="layui-nav-child">
-                    <dd><a href="">基本资料</a></dd>
-                    <dd><a href="">安全设置</a></dd>
+                    <dd><a href="/index.php/update_user_data">安全设置</a></dd>
                 </dl>
             </li>
             <li class="layui-nav-item"><a href="">退出</a></li>
@@ -66,25 +71,8 @@
     <div id="main-nav" data-switch="1" class="layui-side layui-bg-black">
         <div class="layui-side-scroll">
             <ul class="layui-nav layui-nav-tree" lay-filter="test">
-                <li class="layui-nav-item layui-nav-itemed">
-    <a class="" href="javascript:;">所有商品</a>
-    <dl class="layui-nav-child">
-        <dd><a href="javascript:;">列表一</a></dd>
-        <dd><a href="javascript:;">列表二</a></dd>
-        <dd><a href="javascript:;">列表三</a></dd>
-        <dd><a href="">超链接</a></dd>
-    </dl>
-</li>
-<li class="layui-nav-item">
-    <a href="javascript:;">解决方案</a>
-    <dl class="layui-nav-child">
-        <dd><a href="javascript:;">列表一</a></dd>
-        <dd><a href="javascript:;">列表二</a></dd>
-        <dd><a href="">超链接</a></dd>
-    </dl>
-</li>
-<li class="layui-nav-item"><a href="">云市场</a></li>
-<li class="layui-nav-item"><a href="">发布商品</a></li>````````````````````
+                <li class="layui-nav-item"><a href="/index.php/list_news">信息管理</a></li>
+<li class="layui-nav-item"><a href="/index.php/info">栏目列表</a></li>
             </ul>
         </div>
     </div>
@@ -275,6 +263,7 @@
 
 
 </div>
+
 <script src="/statics/layui/layui.js"></script>
 <script>
     layui.use(['element', 'jquery'], function () {
@@ -298,5 +287,6 @@
         })
     });
 </script>
+
 </body>
 </html>

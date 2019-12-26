@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:83:"D:\php-workspace\MyCms/tp5/application/admin\view\user_manage\update_user_data.html";i:1577281037;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577284531;s:70:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_user_manage.html";i:1577280120;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:83:"D:\php-workspace\MyCms/tp5/application/admin\view\user_manage\update_user_data.html";i:1577281037;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577286066;s:70:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_user_manage.html";i:1577280120;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,6 +21,9 @@
             color: #bdbec0;
         }
     </style>
+
+    
+
 </head>
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">

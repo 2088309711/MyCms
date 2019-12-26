@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:67:"D:\php-workspace\MyCms/tp5/application/admin\view\system\index.html";i:1577255094;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577284767;s:65:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_system.html";i:1577263659;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:67:"D:\php-workspace\MyCms/tp5/application/admin\view\system\index.html";i:1577255094;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577379933;s:65:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_system.html";i:1577263659;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,11 +21,14 @@
             color: #bdbec0;
         }
     </style>
+
+    
+
 </head>
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
     <div class="layui-header">
-        <div class="layui-logo" style="width:140px;">柠吉CMS</div>
+        <div class="layui-logo" style="width:140px; color: #fff; font-weight: bold;">柠吉CMS</div>
         <div id="nav-switch">
             <i class="layui-icon layui-icon-shrink-right"></i>
         </div>
