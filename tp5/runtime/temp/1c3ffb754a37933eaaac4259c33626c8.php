@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:65:"D:\php-workspace\MyCms/tp5/application/admin\view\info\index.html";i:1577255120;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577379933;s:63:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_info.html";i:1577248019;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:65:"D:\php-workspace\MyCms/tp5/application/admin\view\info\index.html";i:1577255120;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577417751;s:63:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_info.html";i:1577248019;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,15 +28,19 @@
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
     <div class="layui-header">
-        <div class="layui-logo" style="width:140px; color: #fff; font-weight: bold;">柠吉CMS</div>
+        <a href="/index.php/admin" title="后台主页">
+            <div class="layui-logo" style="width:140px; color: #fff; font-weight: bold;">柠吉CMS</div>
+        </a>
         <div id="nav-switch">
             <i class="layui-icon layui-icon-shrink-right"></i>
         </div>
 
 
         <ul class="layui-nav layui-layout-left">
+            <li class="layui-nav-item"><a href="/index.php/menu">
+                <i class="layui-icon layui-icon-app"></i> 功能</a></li>
             <li class="layui-nav-item"><a href="/index.php/system">
-                <i class="layui-icon layui-icon-engine"></i> 系统</a></li>
+                <i class="layui-icon layui-icon-console"></i> 系统</a></li>
             <li class="layui-nav-item"><a href="/index.php/info">
                 <i class="layui-icon layui-icon-form"></i> 信息</a></li>
             <li class="layui-nav-item"><a href="/index.php/class">
@@ -50,7 +54,7 @@
             <li class="layui-nav-item"><a href="/index.php/shopping_mall">
                 <i class="layui-icon layui-icon-cart"></i> 商城</a></li>
             <li class="layui-nav-item"><a href="/index.php/other">
-                <i class="layui-icon layui-icon-app"></i> 其他</a></li>
+                <i class="layui-icon layui-icon-util"></i> 其他</a></li>
         </ul>
         <ul class="layui-nav layui-layout-right">
             <li class="layui-nav-item">

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:66:"D:\php-workspace\MyCms/tp5/application/admin\view\index\index.html";i:1577371332;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577380147;s:63:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_info.html";i:1577248019;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:66:"D:\php-workspace\MyCms/tp5/application/admin\view\index\index.html";i:1577417182;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577417548;s:63:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_info.html";i:1577248019;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,7 +38,9 @@
 
         <ul class="layui-nav layui-layout-left">
             <li class="layui-nav-item"><a href="/index.php/system">
-                <i class="layui-icon layui-icon-engine"></i> 系统</a></li>
+                <i class="layui-icon layui-icon-app"></i> 功能</a></li>
+            <li class="layui-nav-item"><a href="/index.php/system">
+                <i class="layui-icon layui-icon-console"></i> 系统</a></li>
             <li class="layui-nav-item"><a href="/index.php/info">
                 <i class="layui-icon layui-icon-form"></i> 信息</a></li>
             <li class="layui-nav-item"><a href="/index.php/class">
@@ -52,7 +54,7 @@
             <li class="layui-nav-item"><a href="/index.php/shopping_mall">
                 <i class="layui-icon layui-icon-cart"></i> 商城</a></li>
             <li class="layui-nav-item"><a href="/index.php/other">
-                <i class="layui-icon layui-icon-app"></i> 其他</a></li>
+                <i class="layui-icon layui-icon-util"></i> 其他</a></li>
         </ul>
         <ul class="layui-nav layui-layout-right">
             <li class="layui-nav-item">
@@ -190,7 +192,7 @@
 
                     <tr>
                         <td>管理员个数：</td>
-                        <td><a href="user/ListUser.php?ehash_kVM8H=NNosqbNY6q7AZKK8npfu">1</a> 人</td>
+                        <td><a href="">1</a> 人</td>
                         <td>PHP版本：</td>
                         <td>7.0.12</td>
                     </tr>
@@ -199,7 +201,7 @@
                     <tr>
                         <td>未审核评论：</td>
                         <td>
-                            <a href="openpage/AdminPage.php?leftfile=..%2Fpl%2FPlNav.php%3Fehash_kVM8H%3DNNosqbNY6q7AZKK8npfu&mainfile=..%2Fpl%2FListAllPl.php%3Fchecked%3D2%26ehash_kVM8H%3DNNosqbNY6q7AZKK8npfu&title=%E7%AE%A1%E7%90%86%E8%AF%84%E8%AE%BA&ehash_kVM8H=NNosqbNY6q7AZKK8npfu">0</a>
+                            <a href="">0</a>
                             条
                         </td>
                         <td>MYSQL版本：</td>
@@ -210,7 +212,7 @@
                     <tr>
                         <td>未审核会员：</td>
                         <td>
-                            <a href="member/ListMember.php?sear=1&schecked=1&ehash_kVM8H=NNosqbNY6q7AZKK8npfu">0</a>
+                            <a href="">0</a>
                             人
                         </td>
                         <td>全局变量：</td>
@@ -220,7 +222,7 @@
 
                     <tr>
                         <td>过期广告：</td>
-                        <td><a href="tool/ListAd.php?time=1&ehash_kVM8H=NNosqbNY6q7AZKK8npfu">0</a>
+                        <td><a href="">0</a>
                             个
                         </td>
                         <td>魔术引用：</td>
@@ -238,7 +240,7 @@
 
                     <tr>
                         <td>程序版本：</td>
-                        <td><a href="http://www.phome.net" target="_blank">NJCMS
+                        <td><a href="" target="_blank">NJCMS
                             v7.5 Free</a> (201804091030)
                         </td>
                         <td>当前时间：</td>

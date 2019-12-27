@@ -1,5 +1,5 @@
 #
-# robots.txt for EmpireCMS
+# robots.txt for NJCMS
 #
 
 User-agent: *

@@ -12,6 +12,13 @@ class Index extends Controller
         return $this->fetch();
     }
 
+
+    public function menu()
+    {
+        return $this->fetch();
+    }
+
+
     public function nav()
     {
         return $this->fetch();

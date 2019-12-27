@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:90:"D:\php-workspace\MyCms/tp5/application/admin\view\system\management_optimization_plan.html";i:1577263510;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577286066;s:65:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_system.html";i:1577263659;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:90:"D:\php-workspace\MyCms/tp5/application/admin\view\system\management_optimization_plan.html";i:1577263510;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577380147;s:65:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_system.html";i:1577263659;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,7 +28,9 @@
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
     <div class="layui-header">
-        <div class="layui-logo" style="width:140px;">柠吉CMS</div>
+        <a href="/index.php/admin" title="后台主页">
+            <div class="layui-logo" style="width:140px; color: #fff; font-weight: bold;">柠吉CMS</div>
+        </a>
         <div id="nav-switch">
             <i class="layui-icon layui-icon-shrink-right"></i>
         </div>

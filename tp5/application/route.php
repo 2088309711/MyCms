@@ -25,12 +25,15 @@ Route::get([
     'login' => 'red_pack/index/login',
     'delete/:id' => 'red_pack/index/delete',
     'update/:id' => 'red_pack/index/update',
+
+    'info' => 'admin/Info/index',
     'list_news' => 'admin/Info/news',
     'list_news_get_data' => 'admin/Info/getData',
-    'info' => 'admin/Info/index',
 
     'admin_login' => 'admin/Login/index',
+
     'admin' => 'admin/Index/index',
+    'menu' => 'admin/Index/menu',
 
     'system' => 'admin/System/index',
     'system_param_set' => 'admin/System/systemParamSet',
