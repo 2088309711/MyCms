@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:69:"D:\php-workspace\MyCms/tp5/application/admin\view\template\index.html";i:1577257374;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577379933;s:67:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_template.html";i:1577276766;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:69:"D:\php-workspace\MyCms/tp5/application/admin\view\template\index.html";i:1577257374;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577428634;s:67:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_template.html";i:1577276766;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,15 +28,19 @@
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
     <div class="layui-header">
-        <div class="layui-logo" style="width:140px; color: #fff; font-weight: bold;">柠吉CMS</div>
+        <a href="/index.php/admin" title="后台主页">
+            <div class="layui-logo" style="width:140px; color: #fff; font-weight: bold;">柠吉CMS</div>
+        </a>
         <div id="nav-switch">
             <i class="layui-icon layui-icon-shrink-right"></i>
         </div>
 
 
         <ul class="layui-nav layui-layout-left">
+            <li class="layui-nav-item"><a href="/index.php/menu">
+                <i class="layui-icon layui-icon-app"></i> 功能</a></li>
             <li class="layui-nav-item"><a href="/index.php/system">
-                <i class="layui-icon layui-icon-engine"></i> 系统</a></li>
+                <i class="layui-icon layui-icon-console"></i> 系统</a></li>
             <li class="layui-nav-item"><a href="/index.php/info">
                 <i class="layui-icon layui-icon-form"></i> 信息</a></li>
             <li class="layui-nav-item"><a href="/index.php/class">
@@ -50,7 +54,7 @@
             <li class="layui-nav-item"><a href="/index.php/shopping_mall">
                 <i class="layui-icon layui-icon-cart"></i> 商城</a></li>
             <li class="layui-nav-item"><a href="/index.php/other">
-                <i class="layui-icon layui-icon-app"></i> 其他</a></li>
+                <i class="layui-icon layui-icon-util"></i> 其他</a></li>
         </ul>
         <ul class="layui-nav layui-layout-right">
             <li class="layui-nav-item">
@@ -278,24 +282,36 @@
 
 <script src="/statics/layui/layui.js"></script>
 <script>
+    $ = null;
+
+    function fold_nav(operation) {
+        // alert(operation)
+        var icon = $('#nav-switch').children('i'), nav = $('#main-nav'), content = $('#main-content');
+        switch (operation) {
+            case 'open':
+                nav.data('switch', 1);
+                content.animate({'left': 200});
+                nav.animate({'left': 0, opacity: 1});
+                icon.removeClass('layui-icon-spread-left').addClass('layui-icon-shrink-right');
+                break;
+            case 'close':
+                nav.data('switch', 0);
+                content.animate({'left': 0});
+                nav.animate({'left': -200, opacity: 0});
+                icon.removeClass('layui-icon-shrink-right').addClass('layui-icon-spread-left');
+                break;
+        }
+    }
+
+
     layui.use(['element', 'jquery'], function () {
         var element = layui.element;
-        var $ = layui.jquery;
+        $ = layui.jquery;
         $(function () {
             $('#nav-switch').click(function () {
-                var icon = $(this).children('i'), nav = $('#main-nav'), content = $('#main-content');
-                if (nav.data('switch') == 1) {
-                    nav.data('switch', 0);
-                    content.animate({'left': 0});
-                    nav.animate({'left': -200, opacity: 0});
-                    icon.removeClass('layui-icon-shrink-right').addClass('layui-icon-spread-left');
-                } else {
-                    nav.data('switch', 1);
-                    content.animate({'left': 200});
-                    nav.animate({'left': 0, opacity: 1});
-                    icon.removeClass('layui-icon-spread-left').addClass('layui-icon-shrink-right');
-                }
+                $('#main-nav').data('switch') == 1 ? fold_nav('close') : fold_nav('open');
             });
+            execute_event();
         })
     });
 </script>

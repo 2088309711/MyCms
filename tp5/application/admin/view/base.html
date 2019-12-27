@@ -85,24 +85,36 @@
 
 <script src="/statics/layui/layui.js"></script>
 <script>
+    $ = null;
+
+    function fold_nav(operation) {
+        // alert(operation)
+        var icon = $('#nav-switch').children('i'), nav = $('#main-nav'), content = $('#main-content');
+        switch (operation) {
+            case 'open':
+                nav.data('switch', 1);
+                content.animate({'left': 200});
+                nav.animate({'left': 0, opacity: 1});
+                icon.removeClass('layui-icon-spread-left').addClass('layui-icon-shrink-right');
+                break;
+            case 'close':
+                nav.data('switch', 0);
+                content.animate({'left': 0});
+                nav.animate({'left': -200, opacity: 0});
+                icon.removeClass('layui-icon-shrink-right').addClass('layui-icon-spread-left');
+                break;
+        }
+    }
+
+
     layui.use(['element', 'jquery'], function () {
         var element = layui.element;
-        var $ = layui.jquery;
+        $ = layui.jquery;
         $(function () {
             $('#nav-switch').click(function () {
-                var icon = $(this).children('i'), nav = $('#main-nav'), content = $('#main-content');
-                if (nav.data('switch') == 1) {
-                    nav.data('switch', 0);
-                    content.animate({'left': 0});
-                    nav.animate({'left': -200, opacity: 0});
-                    icon.removeClass('layui-icon-shrink-right').addClass('layui-icon-spread-left');
-                } else {
-                    nav.data('switch', 1);
-                    content.animate({'left': 200});
-                    nav.animate({'left': 0, opacity: 1});
-                    icon.removeClass('layui-icon-spread-left').addClass('layui-icon-shrink-right');
-                }
+                $('#main-nav').data('switch') == 1 ? fold_nav('close') : fold_nav('open');
             });
+            execute_event();
         })
     });
 </script>

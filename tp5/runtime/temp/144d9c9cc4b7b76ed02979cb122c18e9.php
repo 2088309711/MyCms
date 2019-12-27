@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:67:"D:\php-workspace\MyCms/tp5/application/admin\view\system\index.html";i:1577255094;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577417751;s:65:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_system.html";i:1577263659;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:67:"D:\php-workspace\MyCms/tp5/application/admin\view\system\index.html";i:1577255094;s:59:"D:\php-workspace\MyCms\tp5\application\admin\view\base.html";i:1577428634;s:65:"D:\php-workspace\MyCms\tp5\application\admin\view\nav_system.html";i:1577263659;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -188,24 +188,36 @@
 
 <script src="/statics/layui/layui.js"></script>
 <script>
+    $ = null;
+
+    function fold_nav(operation) {
+        // alert(operation)
+        var icon = $('#nav-switch').children('i'), nav = $('#main-nav'), content = $('#main-content');
+        switch (operation) {
+            case 'open':
+                nav.data('switch', 1);
+                content.animate({'left': 200});
+                nav.animate({'left': 0, opacity: 1});
+                icon.removeClass('layui-icon-spread-left').addClass('layui-icon-shrink-right');
+                break;
+            case 'close':
+                nav.data('switch', 0);
+                content.animate({'left': 0});
+                nav.animate({'left': -200, opacity: 0});
+                icon.removeClass('layui-icon-shrink-right').addClass('layui-icon-spread-left');
+                break;
+        }
+    }
+
+
     layui.use(['element', 'jquery'], function () {
         var element = layui.element;
-        var $ = layui.jquery;
+        $ = layui.jquery;
         $(function () {
             $('#nav-switch').click(function () {
-                var icon = $(this).children('i'), nav = $('#main-nav'), content = $('#main-content');
-                if (nav.data('switch') == 1) {
-                    nav.data('switch', 0);
-                    content.animate({'left': 0});
-                    nav.animate({'left': -200, opacity: 0});
-                    icon.removeClass('layui-icon-shrink-right').addClass('layui-icon-spread-left');
-                } else {
-                    nav.data('switch', 1);
-                    content.animate({'left': 200});
-                    nav.animate({'left': 0, opacity: 1});
-                    icon.removeClass('layui-icon-spread-left').addClass('layui-icon-shrink-right');
-                }
+                $('#main-nav').data('switch') == 1 ? fold_nav('close') : fold_nav('open');
             });
+            execute_event();
         })
     });
 </script>
